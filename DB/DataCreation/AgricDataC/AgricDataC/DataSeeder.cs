@@ -178,6 +178,116 @@ namespace AgricDataC
             return cropList;
         }
 
+        public List<IrrigationLog> GenerateIrrigationLogs(List<Crop> crops)
+        {
+            var list = new List<IrrigationLog>();
+            int id = 1;
+
+            foreach (var crop in crops)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    list.Add(new IrrigationLog
+                    {
+                        IrrigationID = id++,
+                        CropID = crop.CropID,
+                        IrrigationDate = crop.PlantingDate.AddDays(i * 14),
+                        Method = irrigationMethods[rand.Next(irrigationMethods.Length)],
+                        WaterLitres = Math.Round((decimal)(rand.NextDouble() * 200 + 100), 2)
+                    });
+                }
+            }
+
+            return list;
+        }
+
+        public List<SoilTest> GenerateSoilTests(List<Farm> farms)
+        {
+            var list = new List<SoilTest>();
+            int id = 1;
+
+            foreach (var farm in farms)
+            {
+                list.Add(new SoilTest
+                {
+                    SoilTestID = id++,
+                    FarmID = farm.FarmID,
+                    TestDate = RandomDate(2023, 2024),
+                    PH = Math.Round((decimal)(rand.NextDouble() * 2 + 5.5), 1), // 5.5 to 7.5
+                    Nitrogen = Math.Round((decimal)(rand.NextDouble() * 20 + 10), 2),
+                    Phosphorus = Math.Round((decimal)(rand.NextDouble() * 15 + 5), 2),
+                    Potassium = Math.Round((decimal)(rand.NextDouble() * 20 + 10), 2),
+                    Moisture = Math.Round((decimal)(rand.NextDouble() * 15 + 10), 1)
+                });
+            }
+
+            return list;
+        }
+
+        public List<PestTreatment> GeneratePestTreatments(List<Crop> crops)
+        {
+            var list = new List<PestTreatment>();
+            int id = 1;
+
+            foreach (var crop in crops)
+            {
+                if (rand.Next(0, 2) == 1) // 50% chance of pest issue
+                {
+                    list.Add(new PestTreatment
+                    {
+                        PestTreatmentID = id++,
+                        CropID = crop.CropID,
+                        TreatmentDate = crop.PlantingDate.AddDays(rand.Next(10, 60)),
+                        PestDetected = pests[rand.Next(pests.Length)],
+                        ChemicalUsed = chemicals[rand.Next(chemicals.Length)],
+                        Dosage = $"{rand.Next(5, 20)}ml per litre"
+                    });
+                }
+            }
+
+            return list;
+        }
+
+        public List<Harvest> GenerateHarvests(List<Crop> crops)
+        {
+            var list = new List<Harvest>();
+            int id = 1;
+
+            foreach (var crop in crops)
+            {
+                list.Add(new Harvest
+                {
+                    HarvestID = id++,
+                    CropID = crop.CropID,
+                    HarvestDate = crop.ActualHarvestDate ?? crop.ExpectedHarvestDate,
+                    QuantityKg = Math.Round((decimal)(rand.NextDouble() * 500 + 200), 2),
+                    QualityGrade = grades[rand.Next(grades.Length)]
+                });
+            }
+
+            return list;
+        }
+
+        public List<HealthRecord> GenerateHealthRecords(List<Livestock> livestockList)
+        {
+            var list = new List<HealthRecord>();
+            int id = 1;
+
+            foreach (var animal in livestockList)
+            {
+                list.Add(new HealthRecord
+                {
+                    HealthRecordID = id++,
+                    LivestockID = animal.LivestockID,
+                    CheckDate = animal.BirthDate.AddMonths(6),
+                    Notes = healthNotes[rand.Next(healthNotes.Length)],
+                    Treatment = healthTreatments[rand.Next(healthTreatments.Length)]
+                });
+            }
+
+            return list;
+        }
+
 
 
     }
