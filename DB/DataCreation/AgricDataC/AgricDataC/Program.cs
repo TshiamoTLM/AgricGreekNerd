@@ -9,19 +9,6 @@ namespace AgricDataC
         static void Main(string[] args)
         {
             Console.WriteLine("🌿 Starting Agricultural Data Seeding...");
-
-            CreateFarmers(10);
-            CreateFarms(5);
-            CreateLivestock(20);
-            CreateWeightLogs(50);
-            CreateHealthRecords(30);
-            CreateFeedingLogs(60);
-            CreateCrops(15);
-            CreateIrrigationLogs(30);
-            CreateSoilTests(10);
-            CreatePestTreatments(15);
-            CreateHarvests(15);
-
             Console.WriteLine("✅ Done seeding data!");
         }
     }
