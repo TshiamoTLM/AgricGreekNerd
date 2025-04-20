@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace AgricDataC
 {
     public class DataSeeder
@@ -19,10 +20,30 @@ namespace AgricDataC
         private static readonly string[] breeds = { "Nguni", "Boer Goat", "Merino", "Bonsmara", "Dorper" };
         private static readonly string[] feedTypes = { "Grass", "Silage", "Maize", "Lucerne" };
         private static readonly string[] cropTypes = { "Maize", "Wheat", "Sorghum", "Sunflower" };
+
         private static readonly string[] irrigationMethods = { "Drip", "Sprinkler", "Center Pivot" };
         private static readonly string[] pests = { "Aphids", "Armyworm", "Cutworms", "Weevils" };
         private static readonly string[] chemicals = { "Pesticide A", "Pesticide B", "Neem Oil", "Insecticide Z" };
         private static readonly string[] grades = { "A", "B", "C" };
+        string[] cropVarieties = new string[]{    "Hybrid Maize SC719",    "PAN 6479",    "Bainsvlei Groundnut",    "Rooibos Tea Red Bush",    "Kikuyu Grass",    "Tomato Money Maker",
+        "Beauregard Sweet Potato",    "California Wonder (Green Pepper)",    "Carrot Kuroda",    "Texas Grano Onion",    "Greenfeast Peas",
+        "Gem Squash Star 6001",    "Red Russian Kale",    "Spinach Fordhook Giant"};
+        string[] healthNotes = new string[] {    "Routine check-up, all vitals normal.",    "Minor cut observed on front leg.",    "Loss of appetite for 2 days.",    "Exhibiting signs of heat stress.",    "Vaccination administered, no side effects.",
+         "Minor infection treated, under observation.",    "Increased weight gain, healthy condition.",    "Mild coughing, vitamin booster given.",
+         "Hoof trimmed and cleaned.",    "Wound from fencing, disinfected and bandaged."};
+
+
+        string[] healthTreatments = new string[]{ "Deworming",    "Vitamin B12 Injection",    "Antibiotics (Oxytetracycline)",    "Tick and Flea Dip",
+    "Foot Rot Treatment",
+    "Multivitamin Supplement",
+    "Vaccination (Anthrax)",
+    "Fly Repellent Spray",
+    "Electrolytes Added to Water",
+    "Anti-inflammatory Injection"
+};
+
+
+
 
         public List<Farmer> GenerateFarmers(int count)
         {
