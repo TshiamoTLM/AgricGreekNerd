@@ -67,8 +67,155 @@ namespace AgricDataC
         }
 
         // More methods to follow in next steps
+
+        public List<Livestock> GenerateLivestock(List<Farmer> farmers, int animalsPerFarmer = 10)
+        {
+            var livestockList = new List<Livestock>();
+            int livestockId = 1;
+
+                foreach (var farmer in farmers)
+                {
+                    for (int i = 0; i < animalsPerFarmer; i++)
+                    {
+                        var birth = RandomDate(2020, 2023);
+                    livestockList.Add(new Livestock
+                        {
+                         LivestockID = livestockId,
+                          FarmerID = farmer.FarmerID,
+                          TagNumber = $"TAG-{farmer.FarmerID}-{i + 1}",
+                             Species = species[rand.Next(species.Length)],
+                             Breed = breeds[rand.Next(breeds.Length)],
+                            BirthDate = birth,
+                            RegistrationDate = birth.AddMonths(2)
+                         });
+                      livestockId++;
+                      }
+                  }
+
+             return livestockList;
+        }
+
+            private DateTime RandomDate(int startYear, int endYear)
+            {
+                int year = rand.Next(startYear, endYear + 1);
+                int month = rand.Next(1, 13);
+                int day = rand.Next(1, 28); // avoid invalid dates
+                return new DateTime(year, month, day);
+            }
+        
+
+        public List<LivestockWeight> GenerateLivestockWeights(List<Livestock> livestockList, int recordsPerAnimal = 5)
+{
+    var weights = new List<LivestockWeight>();
+    int weightId = 1;
+
+    foreach (var livestock in livestockList)
+    {
+        var startDate = livestock.BirthDate.AddMonths(3);
+        for (int i = 0; i < recordsPerAnimal; i++)
+        {
+            weights.Add(new LivestockWeight
+            {
+                LivestockWeightID = weightId++,
+                LivestockID = livestock.LivestockID,
+                RecordedOn = startDate.AddMonths(i),
+                WeightKg = Math.Round(30 + (decimal)(rand.NextDouble() * 300), 2)
+            });
+        }
     }
 
+    return weights;
+}
+
+public List<FeedingLog> GenerateFeedingLogs(List<Livestock> livestockList, int logsPerAnimal = 5)
+{
+    var feedLogs = new List<FeedingLog>();
+    int logId = 1;
+
+    foreach (var livestock in livestockList)
+    {
+        for (int i = 0; i < logsPerAnimal; i++)
+        {
+            feedLogs.Add(new FeedingLog
+            {
+                FeedingLogID = logId++,
+                LivestockID = livestock.LivestockID,
+                FeedType = feedTypes[rand.Next(feedTypes.Length)],
+                QuantityKg = Math.Round((decimal)(rand.NextDouble() * 10 + 5), 2),
+                FedOn = livestock.BirthDate.AddDays(rand.Next(90, 730))
+            });
+        }
+    }
+
+    return feedLogs;
+}
+
+    }
+
+
+    public class Crop
+    {
+        public int CropID { get; set; }
+        public int FarmerID { get; set; }
+        public string CropType { get; set; }
+        public string Variety { get; set; }
+        public DateTime PlantingDate { get; set; }
+        public DateTime ExpectedHarvestDate { get; set; }
+        public DateTime? ActualHarvestDate { get; set; }
+        public decimal AreaPlanted { get; set; } // in hectares
+    }
+
+    public class IrrigationLog
+    {
+        public int IrrigationID { get; set; }
+        public int CropID { get; set; }
+        public DateTime IrrigationDate { get; set; }
+        public string Method { get; set; }
+        public decimal WaterLitres { get; set; }
+    }
+
+    public class SoilTest
+    {
+        public int SoilTestID { get; set; }
+        public int FarmID { get; set; }
+        public DateTime TestDate { get; set; }
+        public decimal PH { get; set; }
+        public decimal Nitrogen { get; set; }
+        public decimal Phosphorus { get; set; }
+        public decimal Potassium { get; set; }
+        public decimal Moisture { get; set; }
+    }
+
+    //PestTreatment Class
+    public class PestTreatment
+    {
+        public int PestTreatmentID { get; set; }
+        public int CropID { get; set; }
+        public DateTime TreatmentDate { get; set; }
+        public string PestDetected { get; set; }
+        public string ChemicalUsed { get; set; }
+        public string Dosage { get; set; }
+    }
+
+    //Harvest class
+    public class Harvest
+    {
+        public int HarvestID { get; set; }
+        public int CropID { get; set; }
+        public DateTime HarvestDate { get; set; }
+        public decimal QuantityKg { get; set; }
+        public string QualityGrade { get; set; }
+    }
+
+    //Health Record class
+    public class HealthRecord
+    {
+        public int HealthRecordID { get; set; }
+        public int LivestockID { get; set; }
+        public DateTime CheckDate { get; set; }
+        public string Notes { get; set; }
+        public string Treatment { get; set; }
+    }
     // Farmer class
     public class Farmer
     {
@@ -87,5 +234,32 @@ namespace AgricDataC
         public string Location { get; set; }
         public double SizeHectares { get; set; }
         public string SoilType { get; set; }
+    }
+    public class Livestock
+    {
+        public int LivestockID { get; set; }
+        public int FarmerID { get; set; }
+        public string TagNumber { get; set; }
+        public string Species { get; set; }
+        public string Breed { get; set; }
+        public DateTime BirthDate { get; set; }
+        public DateTime RegistrationDate { get; set; }
+    }
+
+    public class LivestockWeight
+    {
+        public int LivestockWeightID { get; set; }
+        public int LivestockID { get; set; }
+        public DateTime RecordedOn { get; set; }
+        public decimal WeightKg { get; set; }
+    }
+
+    public class FeedingLog
+    {
+        public int FeedingLogID { get; set; }
+        public int LivestockID { get; set; }
+        public string FeedType { get; set; }
+        public decimal QuantityKg { get; set; }
+        public DateTime FedOn { get; set; }
     }
 }
