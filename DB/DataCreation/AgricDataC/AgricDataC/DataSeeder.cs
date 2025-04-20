@@ -127,8 +127,8 @@ namespace AgricDataC
     return weights;
 }
 
-public List<FeedingLog> GenerateFeedingLogs(List<Livestock> livestockList, int logsPerAnimal = 5)
-{
+        public List<FeedingLog> GenerateFeedingLogs(List<Livestock> livestockList, int logsPerAnimal = 5)
+            {
     var feedLogs = new List<FeedingLog>();
     int logId = 1;
 
@@ -148,11 +148,41 @@ public List<FeedingLog> GenerateFeedingLogs(List<Livestock> livestockList, int l
     }
 
     return feedLogs;
-}
+        }
+
+
+        public List<Crop> GenerateCrops(List<Farm> farms, int cropsPerFarm = 3)
+        {
+            var cropList = new List<Crop>();
+            int id = 1;
+
+            foreach (var farm in farms)
+            {
+                for (int i = 0; i < cropsPerFarm; i++)
+                {
+                    var planting = RandomDate(2023, 2024);
+                    cropList.Add(new Crop
+                    {
+                        CropID = id++,
+                        FarmerID = farm.FarmerID,
+                        CropType = cropTypes[rand.Next(cropTypes.Length)],
+                        Variety = cropVarieties[rand.Next(cropVarieties.Length)],
+                        PlantingDate = planting,
+                        ExpectedHarvestDate = planting.AddMonths(4),
+                        ActualHarvestDate = planting.AddMonths(4).AddDays(rand.Next(-5, 10)),
+                        AreaPlanted = Math.Round((decimal)(rand.NextDouble() * 5 + 1), 2)
+                    });
+                }
+            }
+
+            return cropList;
+        }
+
+
 
     }
 
-
+    //Crop class
     public class Crop
     {
         public int CropID { get; set; }
@@ -165,6 +195,7 @@ public List<FeedingLog> GenerateFeedingLogs(List<Livestock> livestockList, int l
         public decimal AreaPlanted { get; set; } // in hectares
     }
 
+    //IrrigationLog clas
     public class IrrigationLog
     {
         public int IrrigationID { get; set; }
@@ -174,6 +205,7 @@ public List<FeedingLog> GenerateFeedingLogs(List<Livestock> livestockList, int l
         public decimal WaterLitres { get; set; }
     }
 
+    //SoilTest class
     public class SoilTest
     {
         public int SoilTestID { get; set; }
