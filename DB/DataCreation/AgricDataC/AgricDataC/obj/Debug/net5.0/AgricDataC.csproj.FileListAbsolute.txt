@@ -1,0 +1,16 @@
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\AgricDataC.exe
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\AgricDataC.deps.json
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\AgricDataC.runtimeconfig.json
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\AgricDataC.runtimeconfig.dev.json
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\AgricDataC.dll
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\ref\AgricDataC.dll
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\bin\Debug\net5.0\AgricDataC.pdb
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.csproj.AssemblyReference.cache
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.AssemblyInfoInputs.cache
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.AssemblyInfo.cs
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.csproj.CoreCompileInputs.cache
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.dll
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\ref\AgricDataC.dll
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.pdb
+C:\Users\TLM\Documents\AgricGreekNerd\DB\DataCreation\AgricDataC\AgricDataC\obj\Debug\net5.0\AgricDataC.genruntimeconfig.cache

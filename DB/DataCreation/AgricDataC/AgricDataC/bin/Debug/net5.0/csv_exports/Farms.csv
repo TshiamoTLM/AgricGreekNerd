@@ -1,0 +1,2001 @@
+FarmID,FarmerID,Name,Location,SizeHectares,SoilType
+1,1,Ayanda's Farm 1,North West,19;14,Loamy
+2,1,Ayanda's Farm 2,North West,23;15,Clay Loam
+3,2,Dineo's Farm 1,Western Cape,26;16,Alluvial Soil
+4,2,Dineo's Farm 2,Western Cape,24;11,Black Cotton Soil
+5,3,Tshepo's Farm 1,Eastern Cape,31;58,Clay Loam
+6,3,Tshepo's Farm 2,Eastern Cape,35;26,Clay Loam
+7,4,Sibusiso's Farm 1,Eastern Cape,10;28,Loamy
+8,4,Sibusiso's Farm 2,Eastern Cape,10;94,Clay Loam
+9,5,Thabo's Farm 1,Gauteng,16;53,Red Loam
+10,5,Thabo's Farm 2,Gauteng,21;41,Alluvial Soil
+11,6,Sibusiso's Farm 1,Gauteng,45;35,Clay Loam
+12,6,Sibusiso's Farm 2,Gauteng,31;41,Silty Clay
+13,7,Thabo's Farm 1,Mpumalanga,47;69,Silty Clay
+14,7,Thabo's Farm 2,Mpumalanga,47;32,Clay Loam
+15,8,Nomsa's Farm 1,Mpumalanga,21;11,Clay Loam
+16,8,Nomsa's Farm 2,Mpumalanga,47;86,Loamy
+17,9,Lerato's Farm 1,Western Cape,12;41,Silty Clay
+18,9,Lerato's Farm 2,Western Cape,49;04,Loamy
+19,10,Dineo's Farm 1,North West,15;27,Black Cotton Soil
+20,10,Dineo's Farm 2,North West,20;67,Clay Loam
+21,11,Tshepo's Farm 1,North West,14;93,Alluvial Soil
+22,11,Tshepo's Farm 2,North West,41;85,Red Loam
+23,12,Tshepo's Farm 1,Northern Cape,19;14,Silty Clay
+24,12,Tshepo's Farm 2,Northern Cape,42;22,Silty Clay
+25,13,Kagiso's Farm 1,Northern Cape,10;44,Black Cotton Soil
+26,13,Kagiso's Farm 2,Northern Cape,46;7,Black Cotton Soil
+27,14,Nomsa's Farm 1,Western Cape,40;55,Black Cotton Soil
+28,14,Nomsa's Farm 2,Western Cape,46;22,Alluvial Soil
+29,15,Sipho's Farm 1,Free State,34;35,Alluvial Soil
+30,15,Sipho's Farm 2,Free State,19;68,Alluvial Soil
+31,16,Sipho's Farm 1,Gauteng,11;7,Loamy
+32,16,Sipho's Farm 2,Gauteng,23;53,Clay Loam
+33,17,Lerato's Farm 1,Free State,19;77,Black Cotton Soil
+34,17,Lerato's Farm 2,Free State,19;09,Black Cotton Soil
+35,18,Kagiso's Farm 1,Limpopo,17,Alluvial Soil
+36,18,Kagiso's Farm 2,Limpopo,13;84,Black Cotton Soil
+37,19,Kagiso's Farm 1,Western Cape,31;44,Loamy
+38,19,Kagiso's Farm 2,Western Cape,44;28,Alluvial Soil
+39,20,Nomsa's Farm 1,Mpumalanga,29;5,Red Loam
+40,20,Nomsa's Farm 2,Mpumalanga,19;54,Silty Clay
+41,21,Nomsa's Farm 1,KZN,35;09,Silty Clay
+42,21,Nomsa's Farm 2,KZN,20;07,Red Loam
+43,22,Sibusiso's Farm 1,Eastern Cape,26;58,Clay Loam
+44,22,Sibusiso's Farm 2,Eastern Cape,22;79,Silty Clay
+45,23,Buhle's Farm 1,North West,29;38,Loamy
+46,23,Buhle's Farm 2,North West,27;03,Clay Loam
+47,24,Nomsa's Farm 1,Free State,23;02,Clay Loam
+48,24,Nomsa's Farm 2,Free State,15;97,Loamy
+49,25,Thabo's Farm 1,Eastern Cape,34;38,Black Cotton Soil
+50,25,Thabo's Farm 2,Eastern Cape,29;34,Red Loam
+51,26,Sipho's Farm 1,Northern Cape,20;08,Clay Loam
+52,26,Sipho's Farm 2,Northern Cape,22;51,Loamy
+53,27,Sibusiso's Farm 1,KZN,28;98,Clay Loam
+54,27,Sibusiso's Farm 2,KZN,13;21,Red Loam
+55,28,Sibusiso's Farm 1,KZN,40;49,Alluvial Soil
+56,28,Sibusiso's Farm 2,KZN,28;29,Red Loam
+57,29,Buhle's Farm 1,Eastern Cape,34;94,Red Loam
+58,29,Buhle's Farm 2,Eastern Cape,23;76,Black Cotton Soil
+59,30,Kagiso's Farm 1,Mpumalanga,43;52,Black Cotton Soil
+60,30,Kagiso's Farm 2,Mpumalanga,41;73,Alluvial Soil
+61,31,Kagiso's Farm 1,Mpumalanga,19;12,Red Loam
+62,31,Kagiso's Farm 2,Mpumalanga,15;31,Loamy
+63,32,Lerato's Farm 1,Free State,32;53,Red Loam
+64,32,Lerato's Farm 2,Free State,20;81,Clay Loam
+65,33,Nomsa's Farm 1,Mpumalanga,47;77,Red Loam
+66,33,Nomsa's Farm 2,Mpumalanga,23;06,Alluvial Soil
+67,34,Tshepo's Farm 1,Northern Cape,22;96,Black Cotton Soil
+68,34,Tshepo's Farm 2,Northern Cape,18;44,Silty Clay
+69,35,Buhle's Farm 1,Mpumalanga,15;3,Clay Loam
+70,35,Buhle's Farm 2,Mpumalanga,19;32,Loamy
+71,36,Tshepo's Farm 1,North West,19;99,Black Cotton Soil
+72,36,Tshepo's Farm 2,North West,37;15,Black Cotton Soil
+73,37,Sipho's Farm 1,Free State,32;96,Black Cotton Soil
+74,37,Sipho's Farm 2,Free State,35;86,Black Cotton Soil
+75,38,Ayanda's Farm 1,Free State,48;07,Black Cotton Soil
+76,38,Ayanda's Farm 2,Free State,17;81,Alluvial Soil
+77,39,Nomsa's Farm 1,Limpopo,41;82,Black Cotton Soil
+78,39,Nomsa's Farm 2,Limpopo,28;11,Silty Clay
+79,40,Sipho's Farm 1,Northern Cape,12;22,Clay Loam
+80,40,Sipho's Farm 2,Northern Cape,28;35,Black Cotton Soil
+81,41,Buhle's Farm 1,Gauteng,12;06,Alluvial Soil
+82,41,Buhle's Farm 2,Gauteng,39;04,Alluvial Soil
+83,42,Nomsa's Farm 1,Limpopo,35;72,Black Cotton Soil
+84,42,Nomsa's Farm 2,Limpopo,29;1,Loamy
+85,43,Tshepo's Farm 1,Northern Cape,32;72,Alluvial Soil
+86,43,Tshepo's Farm 2,Northern Cape,28;59,Black Cotton Soil
+87,44,Dineo's Farm 1,Western Cape,25;92,Red Loam
+88,44,Dineo's Farm 2,Western Cape,36;57,Black Cotton Soil
+89,45,Sibusiso's Farm 1,Mpumalanga,14;3,Black Cotton Soil
+90,45,Sibusiso's Farm 2,Mpumalanga,32;8,Alluvial Soil
+91,46,Tshepo's Farm 1,Eastern Cape,17;19,Red Loam
+92,46,Tshepo's Farm 2,Eastern Cape,21;54,Silty Clay
+93,47,Thabo's Farm 1,Western Cape,35;13,Silty Clay
+94,47,Thabo's Farm 2,Western Cape,14;14,Red Loam
+95,48,Sibusiso's Farm 1,Northern Cape,14;2,Red Loam
+96,48,Sibusiso's Farm 2,Northern Cape,25;34,Alluvial Soil
+97,49,Tshepo's Farm 1,Northern Cape,40;83,Black Cotton Soil
+98,49,Tshepo's Farm 2,Northern Cape,11;66,Silty Clay
+99,50,Ayanda's Farm 1,Free State,46;94,Red Loam
+100,50,Ayanda's Farm 2,Free State,44;88,Loamy
+101,51,Ayanda's Farm 1,Limpopo,15;88,Black Cotton Soil
+102,51,Ayanda's Farm 2,Limpopo,49;15,Loamy
+103,52,Sibusiso's Farm 1,Eastern Cape,13;49,Black Cotton Soil
+104,52,Sibusiso's Farm 2,Eastern Cape,33;24,Loamy
+105,53,Tshepo's Farm 1,Western Cape,46;22,Alluvial Soil
+106,53,Tshepo's Farm 2,Western Cape,24;34,Silty Clay
+107,54,Dineo's Farm 1,Limpopo,33;96,Black Cotton Soil
+108,54,Dineo's Farm 2,Limpopo,28;74,Clay Loam
+109,55,Tshepo's Farm 1,Mpumalanga,32;06,Silty Clay
+110,55,Tshepo's Farm 2,Mpumalanga,22;41,Clay Loam
+111,56,Buhle's Farm 1,Western Cape,28;2,Red Loam
+112,56,Buhle's Farm 2,Western Cape,48;42,Red Loam
+113,57,Nomsa's Farm 1,Gauteng,30;87,Black Cotton Soil
+114,57,Nomsa's Farm 2,Gauteng,43;5,Red Loam
+115,58,Tshepo's Farm 1,Western Cape,36;36,Clay Loam
+116,58,Tshepo's Farm 2,Western Cape,36;21,Silty Clay
+117,59,Sipho's Farm 1,Eastern Cape,39;83,Black Cotton Soil
+118,59,Sipho's Farm 2,Eastern Cape,41;67,Black Cotton Soil
+119,60,Dineo's Farm 1,Northern Cape,39;8,Clay Loam
+120,60,Dineo's Farm 2,Northern Cape,22;2,Loamy
+121,61,Buhle's Farm 1,North West,40;67,Loamy
+122,61,Buhle's Farm 2,North West,43;95,Clay Loam
+123,62,Dineo's Farm 1,KZN,25;47,Alluvial Soil
+124,62,Dineo's Farm 2,KZN,24;58,Clay Loam
+125,63,Sipho's Farm 1,Western Cape,14;65,Red Loam
+126,63,Sipho's Farm 2,Western Cape,44;33,Black Cotton Soil
+127,64,Sipho's Farm 1,Mpumalanga,27;19,Black Cotton Soil
+128,64,Sipho's Farm 2,Mpumalanga,32;43,Silty Clay
+129,65,Dineo's Farm 1,Northern Cape,34;81,Loamy
+130,65,Dineo's Farm 2,Northern Cape,31,Black Cotton Soil
+131,66,Nomsa's Farm 1,North West,39;97,Red Loam
+132,66,Nomsa's Farm 2,North West,27;45,Black Cotton Soil
+133,67,Sibusiso's Farm 1,Free State,18;75,Alluvial Soil
+134,67,Sibusiso's Farm 2,Free State,37;68,Loamy
+135,68,Lerato's Farm 1,Gauteng,39;13,Alluvial Soil
+136,68,Lerato's Farm 2,Gauteng,33;3,Clay Loam
+137,69,Tshepo's Farm 1,Gauteng,11;16,Clay Loam
+138,69,Tshepo's Farm 2,Gauteng,31;13,Silty Clay
+139,70,Ayanda's Farm 1,Limpopo,44;97,Red Loam
+140,70,Ayanda's Farm 2,Limpopo,27;44,Black Cotton Soil
+141,71,Dineo's Farm 1,Western Cape,15;46,Black Cotton Soil
+142,71,Dineo's Farm 2,Western Cape,37;88,Alluvial Soil
+143,72,Tshepo's Farm 1,Eastern Cape,25;84,Loamy
+144,72,Tshepo's Farm 2,Eastern Cape,47;51,Clay Loam
+145,73,Lerato's Farm 1,Mpumalanga,49;75,Silty Clay
+146,73,Lerato's Farm 2,Mpumalanga,49;15,Black Cotton Soil
+147,74,Tshepo's Farm 1,Gauteng,38;67,Red Loam
+148,74,Tshepo's Farm 2,Gauteng,21;68,Alluvial Soil
+149,75,Thabo's Farm 1,Limpopo,32;88,Clay Loam
+150,75,Thabo's Farm 2,Limpopo,10;5,Silty Clay
+151,76,Lerato's Farm 1,Eastern Cape,20;14,Clay Loam
+152,76,Lerato's Farm 2,Eastern Cape,30;91,Clay Loam
+153,77,Buhle's Farm 1,North West,15;25,Black Cotton Soil
+154,77,Buhle's Farm 2,North West,32;43,Loamy
+155,78,Lerato's Farm 1,Gauteng,11;94,Loamy
+156,78,Lerato's Farm 2,Gauteng,31;98,Alluvial Soil
+157,79,Sibusiso's Farm 1,Mpumalanga,38;8,Alluvial Soil
+158,79,Sibusiso's Farm 2,Mpumalanga,27;99,Loamy
+159,80,Tshepo's Farm 1,Free State,12;83,Silty Clay
+160,80,Tshepo's Farm 2,Free State,20;2,Loamy
+161,81,Thabo's Farm 1,Limpopo,12;13,Black Cotton Soil
+162,81,Thabo's Farm 2,Limpopo,12;04,Silty Clay
+163,82,Sibusiso's Farm 1,Gauteng,45;62,Alluvial Soil
+164,82,Sibusiso's Farm 2,Gauteng,33;72,Clay Loam
+165,83,Nomsa's Farm 1,Mpumalanga,49;07,Black Cotton Soil
+166,83,Nomsa's Farm 2,Mpumalanga,44;98,Red Loam
+167,84,Kagiso's Farm 1,KZN,38;68,Loamy
+168,84,Kagiso's Farm 2,KZN,22;9,Red Loam
+169,85,Kagiso's Farm 1,Western Cape,12;55,Silty Clay
+170,85,Kagiso's Farm 2,Western Cape,42;56,Alluvial Soil
+171,86,Thabo's Farm 1,North West,30;2,Red Loam
+172,86,Thabo's Farm 2,North West,14;81,Alluvial Soil
+173,87,Thabo's Farm 1,Free State,42;73,Loamy
+174,87,Thabo's Farm 2,Free State,44;76,Red Loam
+175,88,Tshepo's Farm 1,Northern Cape,20;76,Loamy
+176,88,Tshepo's Farm 2,Northern Cape,47;14,Loamy
+177,89,Thabo's Farm 1,Eastern Cape,47;71,Alluvial Soil
+178,89,Thabo's Farm 2,Eastern Cape,23;71,Red Loam
+179,90,Tshepo's Farm 1,Western Cape,20;76,Loamy
+180,90,Tshepo's Farm 2,Western Cape,24;25,Loamy
+181,91,Buhle's Farm 1,North West,48;23,Clay Loam
+182,91,Buhle's Farm 2,North West,17;38,Black Cotton Soil
+183,92,Tshepo's Farm 1,Limpopo,19;59,Alluvial Soil
+184,92,Tshepo's Farm 2,Limpopo,16;94,Red Loam
+185,93,Tshepo's Farm 1,Gauteng,35;07,Black Cotton Soil
+186,93,Tshepo's Farm 2,Gauteng,13;95,Black Cotton Soil
+187,94,Thabo's Farm 1,Free State,37;09,Silty Clay
+188,94,Thabo's Farm 2,Free State,35;92,Clay Loam
+189,95,Lerato's Farm 1,Eastern Cape,26;13,Clay Loam
+190,95,Lerato's Farm 2,Eastern Cape,31;68,Red Loam
+191,96,Kagiso's Farm 1,KZN,14;98,Red Loam
+192,96,Kagiso's Farm 2,KZN,11;65,Alluvial Soil
+193,97,Sipho's Farm 1,Northern Cape,34;03,Red Loam
+194,97,Sipho's Farm 2,Northern Cape,39;36,Alluvial Soil
+195,98,Buhle's Farm 1,Gauteng,37;9,Black Cotton Soil
+196,98,Buhle's Farm 2,Gauteng,31;9,Alluvial Soil
+197,99,Nomsa's Farm 1,KZN,13;75,Red Loam
+198,99,Nomsa's Farm 2,KZN,45;67,Clay Loam
+199,100,Ayanda's Farm 1,Eastern Cape,33;69,Black Cotton Soil
+200,100,Ayanda's Farm 2,Eastern Cape,35;6,Alluvial Soil
+201,101,Sibusiso's Farm 1,Gauteng,46;58,Clay Loam
+202,101,Sibusiso's Farm 2,Gauteng,15;63,Black Cotton Soil
+203,102,Sipho's Farm 1,Western Cape,11;22,Clay Loam
+204,102,Sipho's Farm 2,Western Cape,26;15,Black Cotton Soil
+205,103,Tshepo's Farm 1,Northern Cape,18;46,Loamy
+206,103,Tshepo's Farm 2,Northern Cape,23;08,Loamy
+207,104,Dineo's Farm 1,Western Cape,34;82,Black Cotton Soil
+208,104,Dineo's Farm 2,Western Cape,10;53,Loamy
+209,105,Sibusiso's Farm 1,Northern Cape,18;37,Silty Clay
+210,105,Sibusiso's Farm 2,Northern Cape,46;75,Silty Clay
+211,106,Lerato's Farm 1,Northern Cape,15;56,Clay Loam
+212,106,Lerato's Farm 2,Northern Cape,49;3,Loamy
+213,107,Sibusiso's Farm 1,North West,13;43,Clay Loam
+214,107,Sibusiso's Farm 2,North West,31;08,Loamy
+215,108,Dineo's Farm 1,Mpumalanga,30;63,Silty Clay
+216,108,Dineo's Farm 2,Mpumalanga,37;38,Red Loam
+217,109,Sibusiso's Farm 1,Eastern Cape,31;25,Black Cotton Soil
+218,109,Sibusiso's Farm 2,Eastern Cape,45;52,Alluvial Soil
+219,110,Thabo's Farm 1,KZN,37;38,Silty Clay
+220,110,Thabo's Farm 2,KZN,42;67,Clay Loam
+221,111,Buhle's Farm 1,KZN,25;59,Clay Loam
+222,111,Buhle's Farm 2,KZN,35;85,Black Cotton Soil
+223,112,Lerato's Farm 1,North West,20;6,Silty Clay
+224,112,Lerato's Farm 2,North West,21;23,Black Cotton Soil
+225,113,Dineo's Farm 1,Limpopo,36;52,Red Loam
+226,113,Dineo's Farm 2,Limpopo,11;82,Clay Loam
+227,114,Kagiso's Farm 1,Northern Cape,37;28,Clay Loam
+228,114,Kagiso's Farm 2,Northern Cape,42;25,Black Cotton Soil
+229,115,Sibusiso's Farm 1,Limpopo,18;26,Loamy
+230,115,Sibusiso's Farm 2,Limpopo,32,Red Loam
+231,116,Ayanda's Farm 1,Gauteng,41;23,Silty Clay
+232,116,Ayanda's Farm 2,Gauteng,10;77,Red Loam
+233,117,Sipho's Farm 1,Limpopo,25;27,Black Cotton Soil
+234,117,Sipho's Farm 2,Limpopo,32;67,Loamy
+235,118,Buhle's Farm 1,Mpumalanga,36;63,Loamy
+236,118,Buhle's Farm 2,Mpumalanga,27;83,Red Loam
+237,119,Sibusiso's Farm 1,North West,30;81,Black Cotton Soil
+238,119,Sibusiso's Farm 2,North West,12;26,Alluvial Soil
+239,120,Kagiso's Farm 1,North West,36;79,Silty Clay
+240,120,Kagiso's Farm 2,North West,40;78,Black Cotton Soil
+241,121,Dineo's Farm 1,Mpumalanga,46;67,Alluvial Soil
+242,121,Dineo's Farm 2,Mpumalanga,23;51,Red Loam
+243,122,Sipho's Farm 1,Western Cape,23;91,Silty Clay
+244,122,Sipho's Farm 2,Western Cape,14;82,Silty Clay
+245,123,Kagiso's Farm 1,KZN,41;62,Clay Loam
+246,123,Kagiso's Farm 2,KZN,39;16,Black Cotton Soil
+247,124,Thabo's Farm 1,Eastern Cape,44;21,Alluvial Soil
+248,124,Thabo's Farm 2,Eastern Cape,30;49,Alluvial Soil
+249,125,Thabo's Farm 1,Limpopo,17;18,Red Loam
+250,125,Thabo's Farm 2,Limpopo,19;99,Red Loam
+251,126,Lerato's Farm 1,KZN,45;32,Clay Loam
+252,126,Lerato's Farm 2,KZN,44;96,Black Cotton Soil
+253,127,Kagiso's Farm 1,Northern Cape,22;63,Clay Loam
+254,127,Kagiso's Farm 2,Northern Cape,39;39,Loamy
+255,128,Nomsa's Farm 1,Gauteng,15;5,Alluvial Soil
+256,128,Nomsa's Farm 2,Gauteng,47;16,Alluvial Soil
+257,129,Tshepo's Farm 1,Northern Cape,23;47,Alluvial Soil
+258,129,Tshepo's Farm 2,Northern Cape,46;65,Red Loam
+259,130,Buhle's Farm 1,North West,12;6,Clay Loam
+260,130,Buhle's Farm 2,North West,28;82,Alluvial Soil
+261,131,Tshepo's Farm 1,Mpumalanga,26;16,Clay Loam
+262,131,Tshepo's Farm 2,Mpumalanga,19;34,Silty Clay
+263,132,Lerato's Farm 1,KZN,23;95,Alluvial Soil
+264,132,Lerato's Farm 2,KZN,47;94,Black Cotton Soil
+265,133,Lerato's Farm 1,Eastern Cape,14;53,Loamy
+266,133,Lerato's Farm 2,Eastern Cape,40;42,Alluvial Soil
+267,134,Kagiso's Farm 1,Limpopo,14;06,Loamy
+268,134,Kagiso's Farm 2,Limpopo,40;14,Black Cotton Soil
+269,135,Ayanda's Farm 1,Western Cape,14;52,Red Loam
+270,135,Ayanda's Farm 2,Western Cape,27;54,Loamy
+271,136,Kagiso's Farm 1,Eastern Cape,37;78,Loamy
+272,136,Kagiso's Farm 2,Eastern Cape,18,Alluvial Soil
+273,137,Thabo's Farm 1,Western Cape,24;41,Alluvial Soil
+274,137,Thabo's Farm 2,Western Cape,19;66,Alluvial Soil
+275,138,Buhle's Farm 1,Gauteng,12;7,Red Loam
+276,138,Buhle's Farm 2,Gauteng,46;88,Alluvial Soil
+277,139,Thabo's Farm 1,North West,24;3,Clay Loam
+278,139,Thabo's Farm 2,North West,23;46,Black Cotton Soil
+279,140,Tshepo's Farm 1,Free State,10;94,Silty Clay
+280,140,Tshepo's Farm 2,Free State,19;46,Silty Clay
+281,141,Ayanda's Farm 1,Limpopo,21;72,Clay Loam
+282,141,Ayanda's Farm 2,Limpopo,47;72,Loamy
+283,142,Tshepo's Farm 1,Western Cape,14;22,Loamy
+284,142,Tshepo's Farm 2,Western Cape,40;16,Clay Loam
+285,143,Dineo's Farm 1,Eastern Cape,16;42,Clay Loam
+286,143,Dineo's Farm 2,Eastern Cape,37;22,Clay Loam
+287,144,Ayanda's Farm 1,North West,43;07,Silty Clay
+288,144,Ayanda's Farm 2,North West,20;32,Silty Clay
+289,145,Tshepo's Farm 1,Western Cape,11;17,Clay Loam
+290,145,Tshepo's Farm 2,Western Cape,10;65,Silty Clay
+291,146,Sibusiso's Farm 1,Mpumalanga,35;05,Loamy
+292,146,Sibusiso's Farm 2,Mpumalanga,28;76,Silty Clay
+293,147,Kagiso's Farm 1,Gauteng,15;9,Alluvial Soil
+294,147,Kagiso's Farm 2,Gauteng,29;37,Red Loam
+295,148,Buhle's Farm 1,Mpumalanga,37;7,Loamy
+296,148,Buhle's Farm 2,Mpumalanga,35;46,Black Cotton Soil
+297,149,Thabo's Farm 1,Gauteng,30;64,Alluvial Soil
+298,149,Thabo's Farm 2,Gauteng,42;54,Silty Clay
+299,150,Ayanda's Farm 1,Limpopo,14;84,Loamy
+300,150,Ayanda's Farm 2,Limpopo,42;75,Clay Loam
+301,151,Dineo's Farm 1,Gauteng,14;79,Alluvial Soil
+302,151,Dineo's Farm 2,Gauteng,41;25,Red Loam
+303,152,Ayanda's Farm 1,Free State,11;53,Black Cotton Soil
+304,152,Ayanda's Farm 2,Free State,13;52,Alluvial Soil
+305,153,Kagiso's Farm 1,Free State,11;58,Alluvial Soil
+306,153,Kagiso's Farm 2,Free State,34;97,Red Loam
+307,154,Dineo's Farm 1,North West,29;25,Red Loam
+308,154,Dineo's Farm 2,North West,42;88,Clay Loam
+309,155,Sipho's Farm 1,Mpumalanga,39;17,Black Cotton Soil
+310,155,Sipho's Farm 2,Mpumalanga,46;83,Clay Loam
+311,156,Lerato's Farm 1,KZN,34;13,Alluvial Soil
+312,156,Lerato's Farm 2,KZN,34;62,Loamy
+313,157,Lerato's Farm 1,Mpumalanga,34;79,Loamy
+314,157,Lerato's Farm 2,Mpumalanga,41;86,Alluvial Soil
+315,158,Sipho's Farm 1,Free State,32;03,Red Loam
+316,158,Sipho's Farm 2,Free State,18;75,Alluvial Soil
+317,159,Tshepo's Farm 1,Northern Cape,29;61,Red Loam
+318,159,Tshepo's Farm 2,Northern Cape,24;22,Red Loam
+319,160,Thabo's Farm 1,Northern Cape,19;03,Black Cotton Soil
+320,160,Thabo's Farm 2,Northern Cape,24;26,Black Cotton Soil
+321,161,Tshepo's Farm 1,Western Cape,40;32,Silty Clay
+322,161,Tshepo's Farm 2,Western Cape,40;58,Red Loam
+323,162,Sipho's Farm 1,North West,29;02,Alluvial Soil
+324,162,Sipho's Farm 2,North West,15;36,Red Loam
+325,163,Kagiso's Farm 1,Limpopo,16;72,Black Cotton Soil
+326,163,Kagiso's Farm 2,Limpopo,40;67,Black Cotton Soil
+327,164,Tshepo's Farm 1,Western Cape,18;45,Black Cotton Soil
+328,164,Tshepo's Farm 2,Western Cape,36;79,Clay Loam
+329,165,Sibusiso's Farm 1,Limpopo,22;72,Red Loam
+330,165,Sibusiso's Farm 2,Limpopo,17;67,Alluvial Soil
+331,166,Buhle's Farm 1,Mpumalanga,42;52,Clay Loam
+332,166,Buhle's Farm 2,Mpumalanga,27;71,Clay Loam
+333,167,Sipho's Farm 1,Western Cape,41;11,Red Loam
+334,167,Sipho's Farm 2,Western Cape,18;96,Red Loam
+335,168,Dineo's Farm 1,Eastern Cape,26;23,Loamy
+336,168,Dineo's Farm 2,Eastern Cape,12;4,Loamy
+337,169,Sipho's Farm 1,Mpumalanga,17;68,Silty Clay
+338,169,Sipho's Farm 2,Mpumalanga,30;06,Loamy
+339,170,Buhle's Farm 1,KZN,17;41,Alluvial Soil
+340,170,Buhle's Farm 2,KZN,33;41,Red Loam
+341,171,Buhle's Farm 1,Western Cape,47;25,Loamy
+342,171,Buhle's Farm 2,Western Cape,36;73,Loamy
+343,172,Buhle's Farm 1,Free State,49;8,Black Cotton Soil
+344,172,Buhle's Farm 2,Free State,37;45,Alluvial Soil
+345,173,Sipho's Farm 1,KZN,12;94,Clay Loam
+346,173,Sipho's Farm 2,KZN,24;98,Black Cotton Soil
+347,174,Ayanda's Farm 1,Limpopo,28;63,Silty Clay
+348,174,Ayanda's Farm 2,Limpopo,38;99,Black Cotton Soil
+349,175,Thabo's Farm 1,Gauteng,11;92,Silty Clay
+350,175,Thabo's Farm 2,Gauteng,46;73,Red Loam
+351,176,Tshepo's Farm 1,KZN,37;92,Silty Clay
+352,176,Tshepo's Farm 2,KZN,23;96,Loamy
+353,177,Kagiso's Farm 1,Gauteng,28;7,Red Loam
+354,177,Kagiso's Farm 2,Gauteng,25;22,Red Loam
+355,178,Kagiso's Farm 1,Free State,12;3,Black Cotton Soil
+356,178,Kagiso's Farm 2,Free State,49;38,Silty Clay
+357,179,Nomsa's Farm 1,Western Cape,15;42,Silty Clay
+358,179,Nomsa's Farm 2,Western Cape,11;67,Red Loam
+359,180,Thabo's Farm 1,Western Cape,33;32,Silty Clay
+360,180,Thabo's Farm 2,Western Cape,21;3,Loamy
+361,181,Thabo's Farm 1,KZN,11;62,Clay Loam
+362,181,Thabo's Farm 2,KZN,36;58,Clay Loam
+363,182,Tshepo's Farm 1,Mpumalanga,40;19,Black Cotton Soil
+364,182,Tshepo's Farm 2,Mpumalanga,34;24,Red Loam
+365,183,Sipho's Farm 1,Mpumalanga,36;32,Alluvial Soil
+366,183,Sipho's Farm 2,Mpumalanga,12;57,Red Loam
+367,184,Nomsa's Farm 1,Gauteng,10;05,Alluvial Soil
+368,184,Nomsa's Farm 2,Gauteng,49;97,Black Cotton Soil
+369,185,Nomsa's Farm 1,Gauteng,37;71,Black Cotton Soil
+370,185,Nomsa's Farm 2,Gauteng,32;23,Clay Loam
+371,186,Ayanda's Farm 1,Gauteng,20;62,Alluvial Soil
+372,186,Ayanda's Farm 2,Gauteng,44;94,Black Cotton Soil
+373,187,Buhle's Farm 1,KZN,18;06,Alluvial Soil
+374,187,Buhle's Farm 2,KZN,24;8,Alluvial Soil
+375,188,Dineo's Farm 1,Eastern Cape,23;67,Alluvial Soil
+376,188,Dineo's Farm 2,Eastern Cape,46;94,Black Cotton Soil
+377,189,Dineo's Farm 1,Northern Cape,18;17,Red Loam
+378,189,Dineo's Farm 2,Northern Cape,38;33,Silty Clay
+379,190,Sipho's Farm 1,North West,39;25,Loamy
+380,190,Sipho's Farm 2,North West,21;36,Alluvial Soil
+381,191,Sibusiso's Farm 1,North West,13;55,Black Cotton Soil
+382,191,Sibusiso's Farm 2,North West,16;81,Loamy
+383,192,Sibusiso's Farm 1,Western Cape,29;73,Clay Loam
+384,192,Sibusiso's Farm 2,Western Cape,25;89,Clay Loam
+385,193,Ayanda's Farm 1,Gauteng,29;8,Black Cotton Soil
+386,193,Ayanda's Farm 2,Gauteng,13;15,Alluvial Soil
+387,194,Thabo's Farm 1,Mpumalanga,44;55,Alluvial Soil
+388,194,Thabo's Farm 2,Mpumalanga,44;64,Clay Loam
+389,195,Dineo's Farm 1,Gauteng,26;78,Loamy
+390,195,Dineo's Farm 2,Gauteng,10;74,Red Loam
+391,196,Lerato's Farm 1,Mpumalanga,17;4,Black Cotton Soil
+392,196,Lerato's Farm 2,Mpumalanga,28;68,Red Loam
+393,197,Buhle's Farm 1,Western Cape,12;86,Silty Clay
+394,197,Buhle's Farm 2,Western Cape,29;76,Clay Loam
+395,198,Sipho's Farm 1,Mpumalanga,15;13,Black Cotton Soil
+396,198,Sipho's Farm 2,Mpumalanga,42;15,Black Cotton Soil
+397,199,Buhle's Farm 1,Gauteng,23;83,Black Cotton Soil
+398,199,Buhle's Farm 2,Gauteng,18;45,Red Loam
+399,200,Thabo's Farm 1,Northern Cape,37;5,Red Loam
+400,200,Thabo's Farm 2,Northern Cape,10;91,Alluvial Soil
+401,201,Kagiso's Farm 1,North West,33;15,Loamy
+402,201,Kagiso's Farm 2,North West,29;06,Alluvial Soil
+403,202,Thabo's Farm 1,Mpumalanga,44;99,Alluvial Soil
+404,202,Thabo's Farm 2,Mpumalanga,40;59,Clay Loam
+405,203,Kagiso's Farm 1,Free State,46;82,Black Cotton Soil
+406,203,Kagiso's Farm 2,Free State,49;43,Black Cotton Soil
+407,204,Dineo's Farm 1,Mpumalanga,14;43,Black Cotton Soil
+408,204,Dineo's Farm 2,Mpumalanga,39;11,Silty Clay
+409,205,Buhle's Farm 1,Northern Cape,14;2,Silty Clay
+410,205,Buhle's Farm 2,Northern Cape,49;65,Loamy
+411,206,Tshepo's Farm 1,North West,41;68,Clay Loam
+412,206,Tshepo's Farm 2,North West,16;82,Alluvial Soil
+413,207,Nomsa's Farm 1,Northern Cape,38;11,Black Cotton Soil
+414,207,Nomsa's Farm 2,Northern Cape,34;3,Clay Loam
+415,208,Nomsa's Farm 1,Northern Cape,40;85,Clay Loam
+416,208,Nomsa's Farm 2,Northern Cape,29;8,Black Cotton Soil
+417,209,Ayanda's Farm 1,Northern Cape,15;03,Loamy
+418,209,Ayanda's Farm 2,Northern Cape,18,Loamy
+419,210,Kagiso's Farm 1,Gauteng,16;33,Black Cotton Soil
+420,210,Kagiso's Farm 2,Gauteng,43;2,Loamy
+421,211,Lerato's Farm 1,Limpopo,36;83,Clay Loam
+422,211,Lerato's Farm 2,Limpopo,21;77,Black Cotton Soil
+423,212,Ayanda's Farm 1,Free State,34;34,Clay Loam
+424,212,Ayanda's Farm 2,Free State,28;11,Alluvial Soil
+425,213,Sibusiso's Farm 1,Limpopo,46;61,Red Loam
+426,213,Sibusiso's Farm 2,Limpopo,33;54,Clay Loam
+427,214,Nomsa's Farm 1,Northern Cape,42;78,Alluvial Soil
+428,214,Nomsa's Farm 2,Northern Cape,14;93,Silty Clay
+429,215,Dineo's Farm 1,Western Cape,46;02,Black Cotton Soil
+430,215,Dineo's Farm 2,Western Cape,15;29,Silty Clay
+431,216,Buhle's Farm 1,Free State,24;5,Black Cotton Soil
+432,216,Buhle's Farm 2,Free State,28;02,Red Loam
+433,217,Thabo's Farm 1,Mpumalanga,11;22,Silty Clay
+434,217,Thabo's Farm 2,Mpumalanga,28;28,Loamy
+435,218,Sibusiso's Farm 1,Free State,22;2,Black Cotton Soil
+436,218,Sibusiso's Farm 2,Free State,21;84,Silty Clay
+437,219,Kagiso's Farm 1,Limpopo,35;43,Alluvial Soil
+438,219,Kagiso's Farm 2,Limpopo,25;47,Black Cotton Soil
+439,220,Tshepo's Farm 1,Mpumalanga,45;54,Black Cotton Soil
+440,220,Tshepo's Farm 2,Mpumalanga,21;69,Silty Clay
+441,221,Lerato's Farm 1,Northern Cape,12;5,Red Loam
+442,221,Lerato's Farm 2,Northern Cape,22;21,Loamy
+443,222,Dineo's Farm 1,KZN,33;36,Clay Loam
+444,222,Dineo's Farm 2,KZN,41;56,Loamy
+445,223,Tshepo's Farm 1,Limpopo,49;19,Red Loam
+446,223,Tshepo's Farm 2,Limpopo,18;54,Black Cotton Soil
+447,224,Buhle's Farm 1,Eastern Cape,29;98,Silty Clay
+448,224,Buhle's Farm 2,Eastern Cape,39;55,Loamy
+449,225,Buhle's Farm 1,Free State,42;87,Black Cotton Soil
+450,225,Buhle's Farm 2,Free State,32;88,Clay Loam
+451,226,Thabo's Farm 1,Mpumalanga,40;56,Silty Clay
+452,226,Thabo's Farm 2,Mpumalanga,31;43,Clay Loam
+453,227,Ayanda's Farm 1,Western Cape,28;45,Loamy
+454,227,Ayanda's Farm 2,Western Cape,33;45,Alluvial Soil
+455,228,Thabo's Farm 1,North West,33;14,Black Cotton Soil
+456,228,Thabo's Farm 2,North West,30;31,Clay Loam
+457,229,Dineo's Farm 1,Gauteng,21;33,Black Cotton Soil
+458,229,Dineo's Farm 2,Gauteng,21;89,Black Cotton Soil
+459,230,Tshepo's Farm 1,Eastern Cape,19;55,Silty Clay
+460,230,Tshepo's Farm 2,Eastern Cape,16;57,Red Loam
+461,231,Sibusiso's Farm 1,Gauteng,33;52,Clay Loam
+462,231,Sibusiso's Farm 2,Gauteng,11;11,Black Cotton Soil
+463,232,Lerato's Farm 1,Gauteng,26;02,Red Loam
+464,232,Lerato's Farm 2,Gauteng,48;96,Loamy
+465,233,Sipho's Farm 1,Northern Cape,16;06,Clay Loam
+466,233,Sipho's Farm 2,Northern Cape,37;93,Silty Clay
+467,234,Ayanda's Farm 1,Limpopo,49;83,Loamy
+468,234,Ayanda's Farm 2,Limpopo,38;71,Black Cotton Soil
+469,235,Lerato's Farm 1,KZN,19;24,Loamy
+470,235,Lerato's Farm 2,KZN,32;13,Silty Clay
+471,236,Buhle's Farm 1,Gauteng,37;47,Alluvial Soil
+472,236,Buhle's Farm 2,Gauteng,33;28,Silty Clay
+473,237,Dineo's Farm 1,North West,21;85,Alluvial Soil
+474,237,Dineo's Farm 2,North West,21;97,Alluvial Soil
+475,238,Dineo's Farm 1,Northern Cape,16;93,Loamy
+476,238,Dineo's Farm 2,Northern Cape,45;52,Silty Clay
+477,239,Ayanda's Farm 1,KZN,25;27,Red Loam
+478,239,Ayanda's Farm 2,KZN,35;73,Silty Clay
+479,240,Nomsa's Farm 1,Free State,26;7,Loamy
+480,240,Nomsa's Farm 2,Free State,46;04,Red Loam
+481,241,Ayanda's Farm 1,Free State,15;65,Silty Clay
+482,241,Ayanda's Farm 2,Free State,41;13,Clay Loam
+483,242,Nomsa's Farm 1,Limpopo,46;21,Loamy
+484,242,Nomsa's Farm 2,Limpopo,23;47,Clay Loam
+485,243,Sipho's Farm 1,Gauteng,47;32,Red Loam
+486,243,Sipho's Farm 2,Gauteng,24;59,Clay Loam
+487,244,Kagiso's Farm 1,Northern Cape,45;32,Red Loam
+488,244,Kagiso's Farm 2,Northern Cape,12;84,Red Loam
+489,245,Buhle's Farm 1,KZN,38;59,Black Cotton Soil
+490,245,Buhle's Farm 2,KZN,18;2,Black Cotton Soil
+491,246,Kagiso's Farm 1,Western Cape,26;56,Loamy
+492,246,Kagiso's Farm 2,Western Cape,49;68,Loamy
+493,247,Lerato's Farm 1,Free State,24;89,Clay Loam
+494,247,Lerato's Farm 2,Free State,48;42,Clay Loam
+495,248,Ayanda's Farm 1,KZN,26;7,Clay Loam
+496,248,Ayanda's Farm 2,KZN,17;99,Clay Loam
+497,249,Nomsa's Farm 1,North West,14;11,Red Loam
+498,249,Nomsa's Farm 2,North West,23;1,Clay Loam
+499,250,Sipho's Farm 1,Gauteng,13;25,Clay Loam
+500,250,Sipho's Farm 2,Gauteng,28;85,Loamy
+501,251,Sibusiso's Farm 1,Mpumalanga,31;77,Loamy
+502,251,Sibusiso's Farm 2,Mpumalanga,46;64,Silty Clay
+503,252,Lerato's Farm 1,Mpumalanga,41;13,Black Cotton Soil
+504,252,Lerato's Farm 2,Mpumalanga,30;09,Red Loam
+505,253,Buhle's Farm 1,Northern Cape,39;74,Alluvial Soil
+506,253,Buhle's Farm 2,Northern Cape,40;11,Red Loam
+507,254,Thabo's Farm 1,Free State,43;19,Silty Clay
+508,254,Thabo's Farm 2,Free State,23;35,Loamy
+509,255,Sibusiso's Farm 1,Mpumalanga,27;17,Red Loam
+510,255,Sibusiso's Farm 2,Mpumalanga,47;85,Black Cotton Soil
+511,256,Lerato's Farm 1,Free State,18;2,Loamy
+512,256,Lerato's Farm 2,Free State,42;19,Red Loam
+513,257,Ayanda's Farm 1,Limpopo,29;21,Clay Loam
+514,257,Ayanda's Farm 2,Limpopo,15;28,Loamy
+515,258,Lerato's Farm 1,Western Cape,24;71,Red Loam
+516,258,Lerato's Farm 2,Western Cape,35;89,Silty Clay
+517,259,Kagiso's Farm 1,North West,17;19,Loamy
+518,259,Kagiso's Farm 2,North West,49,Silty Clay
+519,260,Sibusiso's Farm 1,Mpumalanga,18;36,Silty Clay
+520,260,Sibusiso's Farm 2,Mpumalanga,19;21,Red Loam
+521,261,Tshepo's Farm 1,Northern Cape,42;42,Clay Loam
+522,261,Tshepo's Farm 2,Northern Cape,27;51,Black Cotton Soil
+523,262,Lerato's Farm 1,Eastern Cape,29;9,Silty Clay
+524,262,Lerato's Farm 2,Eastern Cape,24;66,Red Loam
+525,263,Buhle's Farm 1,Western Cape,28;86,Clay Loam
+526,263,Buhle's Farm 2,Western Cape,43;46,Clay Loam
+527,264,Buhle's Farm 1,North West,22;68,Alluvial Soil
+528,264,Buhle's Farm 2,North West,47;03,Silty Clay
+529,265,Sipho's Farm 1,Mpumalanga,20;88,Clay Loam
+530,265,Sipho's Farm 2,Mpumalanga,10;53,Black Cotton Soil
+531,266,Kagiso's Farm 1,North West,30;84,Silty Clay
+532,266,Kagiso's Farm 2,North West,22;75,Alluvial Soil
+533,267,Kagiso's Farm 1,Northern Cape,20;7,Clay Loam
+534,267,Kagiso's Farm 2,Northern Cape,33;46,Red Loam
+535,268,Tshepo's Farm 1,Western Cape,26;26,Alluvial Soil
+536,268,Tshepo's Farm 2,Western Cape,42;29,Alluvial Soil
+537,269,Lerato's Farm 1,Free State,31;58,Clay Loam
+538,269,Lerato's Farm 2,Free State,41;27,Alluvial Soil
+539,270,Thabo's Farm 1,Northern Cape,38;7,Clay Loam
+540,270,Thabo's Farm 2,Northern Cape,17;4,Loamy
+541,271,Tshepo's Farm 1,Eastern Cape,42;07,Silty Clay
+542,271,Tshepo's Farm 2,Eastern Cape,34;25,Loamy
+543,272,Sipho's Farm 1,Eastern Cape,48;76,Silty Clay
+544,272,Sipho's Farm 2,Eastern Cape,15;37,Clay Loam
+545,273,Nomsa's Farm 1,North West,15;94,Black Cotton Soil
+546,273,Nomsa's Farm 2,North West,12;6,Alluvial Soil
+547,274,Sibusiso's Farm 1,Mpumalanga,29;42,Black Cotton Soil
+548,274,Sibusiso's Farm 2,Mpumalanga,17;93,Silty Clay
+549,275,Buhle's Farm 1,Mpumalanga,48;21,Silty Clay
+550,275,Buhle's Farm 2,Mpumalanga,19;42,Clay Loam
+551,276,Nomsa's Farm 1,Mpumalanga,43;88,Black Cotton Soil
+552,276,Nomsa's Farm 2,Mpumalanga,22;58,Silty Clay
+553,277,Dineo's Farm 1,Free State,30;17,Alluvial Soil
+554,277,Dineo's Farm 2,Free State,40;89,Loamy
+555,278,Ayanda's Farm 1,Mpumalanga,13;89,Alluvial Soil
+556,278,Ayanda's Farm 2,Mpumalanga,36;86,Alluvial Soil
+557,279,Nomsa's Farm 1,North West,11;93,Alluvial Soil
+558,279,Nomsa's Farm 2,North West,42;32,Loamy
+559,280,Sibusiso's Farm 1,Eastern Cape,42;73,Clay Loam
+560,280,Sibusiso's Farm 2,Eastern Cape,48;77,Alluvial Soil
+561,281,Tshepo's Farm 1,Limpopo,16;69,Clay Loam
+562,281,Tshepo's Farm 2,Limpopo,34;29,Red Loam
+563,282,Sipho's Farm 1,Western Cape,47;27,Red Loam
+564,282,Sipho's Farm 2,Western Cape,27;8,Alluvial Soil
+565,283,Tshepo's Farm 1,Eastern Cape,11;16,Silty Clay
+566,283,Tshepo's Farm 2,Eastern Cape,49;03,Clay Loam
+567,284,Sibusiso's Farm 1,Limpopo,12;66,Alluvial Soil
+568,284,Sibusiso's Farm 2,Limpopo,17;99,Clay Loam
+569,285,Thabo's Farm 1,Free State,13;85,Loamy
+570,285,Thabo's Farm 2,Free State,32;08,Loamy
+571,286,Ayanda's Farm 1,Gauteng,32;54,Loamy
+572,286,Ayanda's Farm 2,Gauteng,18;14,Loamy
+573,287,Thabo's Farm 1,Limpopo,46;59,Loamy
+574,287,Thabo's Farm 2,Limpopo,47;09,Black Cotton Soil
+575,288,Kagiso's Farm 1,Western Cape,42;49,Loamy
+576,288,Kagiso's Farm 2,Western Cape,32;71,Red Loam
+577,289,Lerato's Farm 1,Limpopo,31;21,Clay Loam
+578,289,Lerato's Farm 2,Limpopo,11;16,Black Cotton Soil
+579,290,Tshepo's Farm 1,Northern Cape,10;15,Silty Clay
+580,290,Tshepo's Farm 2,Northern Cape,31;72,Red Loam
+581,291,Thabo's Farm 1,Free State,28;43,Alluvial Soil
+582,291,Thabo's Farm 2,Free State,12;43,Red Loam
+583,292,Thabo's Farm 1,North West,10;76,Silty Clay
+584,292,Thabo's Farm 2,North West,46;14,Loamy
+585,293,Dineo's Farm 1,Northern Cape,40;67,Black Cotton Soil
+586,293,Dineo's Farm 2,Northern Cape,10;56,Red Loam
+587,294,Sipho's Farm 1,North West,38;42,Alluvial Soil
+588,294,Sipho's Farm 2,North West,24;73,Loamy
+589,295,Buhle's Farm 1,Northern Cape,13;28,Silty Clay
+590,295,Buhle's Farm 2,Northern Cape,46;23,Alluvial Soil
+591,296,Buhle's Farm 1,North West,46;17,Alluvial Soil
+592,296,Buhle's Farm 2,North West,14;28,Alluvial Soil
+593,297,Buhle's Farm 1,Gauteng,43;12,Clay Loam
+594,297,Buhle's Farm 2,Gauteng,37;5,Red Loam
+595,298,Sipho's Farm 1,Western Cape,48;4,Black Cotton Soil
+596,298,Sipho's Farm 2,Western Cape,17;49,Black Cotton Soil
+597,299,Buhle's Farm 1,Limpopo,33;54,Alluvial Soil
+598,299,Buhle's Farm 2,Limpopo,34;09,Red Loam
+599,300,Thabo's Farm 1,Northern Cape,49;34,Black Cotton Soil
+600,300,Thabo's Farm 2,Northern Cape,15;38,Silty Clay
+601,301,Sibusiso's Farm 1,Limpopo,17;66,Alluvial Soil
+602,301,Sibusiso's Farm 2,Limpopo,40;09,Clay Loam
+603,302,Thabo's Farm 1,KZN,12;96,Alluvial Soil
+604,302,Thabo's Farm 2,KZN,49;29,Black Cotton Soil
+605,303,Sibusiso's Farm 1,Northern Cape,47;42,Alluvial Soil
+606,303,Sibusiso's Farm 2,Northern Cape,29;18,Black Cotton Soil
+607,304,Kagiso's Farm 1,North West,33;53,Red Loam
+608,304,Kagiso's Farm 2,North West,40;75,Black Cotton Soil
+609,305,Thabo's Farm 1,Northern Cape,39;84,Loamy
+610,305,Thabo's Farm 2,Northern Cape,44;93,Red Loam
+611,306,Kagiso's Farm 1,Northern Cape,40;64,Loamy
+612,306,Kagiso's Farm 2,Northern Cape,13;98,Loamy
+613,307,Lerato's Farm 1,Northern Cape,27;19,Silty Clay
+614,307,Lerato's Farm 2,Northern Cape,13;92,Red Loam
+615,308,Nomsa's Farm 1,Gauteng,22;16,Black Cotton Soil
+616,308,Nomsa's Farm 2,Gauteng,15;57,Black Cotton Soil
+617,309,Ayanda's Farm 1,Limpopo,22;76,Silty Clay
+618,309,Ayanda's Farm 2,Limpopo,35;8,Loamy
+619,310,Dineo's Farm 1,KZN,16;95,Alluvial Soil
+620,310,Dineo's Farm 2,KZN,44;68,Alluvial Soil
+621,311,Thabo's Farm 1,Northern Cape,22;03,Loamy
+622,311,Thabo's Farm 2,Northern Cape,43;09,Loamy
+623,312,Tshepo's Farm 1,KZN,16;35,Black Cotton Soil
+624,312,Tshepo's Farm 2,KZN,10;56,Alluvial Soil
+625,313,Sipho's Farm 1,Eastern Cape,14;42,Loamy
+626,313,Sipho's Farm 2,Eastern Cape,48;58,Alluvial Soil
+627,314,Tshepo's Farm 1,Mpumalanga,35;16,Silty Clay
+628,314,Tshepo's Farm 2,Mpumalanga,37;81,Loamy
+629,315,Ayanda's Farm 1,Free State,40;74,Black Cotton Soil
+630,315,Ayanda's Farm 2,Free State,40;61,Black Cotton Soil
+631,316,Sipho's Farm 1,Western Cape,41;32,Loamy
+632,316,Sipho's Farm 2,Western Cape,22;81,Clay Loam
+633,317,Tshepo's Farm 1,Gauteng,40;67,Alluvial Soil
+634,317,Tshepo's Farm 2,Gauteng,19;25,Loamy
+635,318,Sipho's Farm 1,KZN,12;45,Red Loam
+636,318,Sipho's Farm 2,KZN,24;44,Alluvial Soil
+637,319,Kagiso's Farm 1,KZN,20;11,Alluvial Soil
+638,319,Kagiso's Farm 2,KZN,27;42,Red Loam
+639,320,Nomsa's Farm 1,North West,22;53,Loamy
+640,320,Nomsa's Farm 2,North West,48;8,Red Loam
+641,321,Thabo's Farm 1,Western Cape,25;92,Clay Loam
+642,321,Thabo's Farm 2,Western Cape,38;82,Clay Loam
+643,322,Ayanda's Farm 1,North West,37;73,Clay Loam
+644,322,Ayanda's Farm 2,North West,48;04,Alluvial Soil
+645,323,Thabo's Farm 1,Western Cape,39;97,Black Cotton Soil
+646,323,Thabo's Farm 2,Western Cape,20;71,Black Cotton Soil
+647,324,Kagiso's Farm 1,Limpopo,15;86,Clay Loam
+648,324,Kagiso's Farm 2,Limpopo,16;55,Loamy
+649,325,Thabo's Farm 1,Northern Cape,39;72,Black Cotton Soil
+650,325,Thabo's Farm 2,Northern Cape,21;49,Clay Loam
+651,326,Buhle's Farm 1,Gauteng,26;23,Alluvial Soil
+652,326,Buhle's Farm 2,Gauteng,42;83,Silty Clay
+653,327,Sipho's Farm 1,Northern Cape,38;26,Loamy
+654,327,Sipho's Farm 2,Northern Cape,34;44,Red Loam
+655,328,Tshepo's Farm 1,Free State,48;52,Alluvial Soil
+656,328,Tshepo's Farm 2,Free State,39;51,Red Loam
+657,329,Dineo's Farm 1,Eastern Cape,36;15,Alluvial Soil
+658,329,Dineo's Farm 2,Eastern Cape,20;58,Black Cotton Soil
+659,330,Lerato's Farm 1,Northern Cape,27;22,Loamy
+660,330,Lerato's Farm 2,Northern Cape,33;39,Silty Clay
+661,331,Lerato's Farm 1,Mpumalanga,47;95,Clay Loam
+662,331,Lerato's Farm 2,Mpumalanga,25;78,Silty Clay
+663,332,Ayanda's Farm 1,Free State,28;58,Red Loam
+664,332,Ayanda's Farm 2,Free State,37;51,Loamy
+665,333,Buhle's Farm 1,Eastern Cape,40;51,Clay Loam
+666,333,Buhle's Farm 2,Eastern Cape,48;38,Red Loam
+667,334,Tshepo's Farm 1,Mpumalanga,40;33,Red Loam
+668,334,Tshepo's Farm 2,Mpumalanga,25;48,Black Cotton Soil
+669,335,Thabo's Farm 1,Limpopo,25;8,Silty Clay
+670,335,Thabo's Farm 2,Limpopo,31;19,Black Cotton Soil
+671,336,Sibusiso's Farm 1,Gauteng,36;58,Clay Loam
+672,336,Sibusiso's Farm 2,Gauteng,48;3,Red Loam
+673,337,Tshepo's Farm 1,North West,44;25,Black Cotton Soil
+674,337,Tshepo's Farm 2,North West,45;86,Clay Loam
+675,338,Dineo's Farm 1,Eastern Cape,47;62,Black Cotton Soil
+676,338,Dineo's Farm 2,Eastern Cape,38;77,Black Cotton Soil
+677,339,Sipho's Farm 1,KZN,48;58,Red Loam
+678,339,Sipho's Farm 2,KZN,22;41,Loamy
+679,340,Sibusiso's Farm 1,Northern Cape,29;03,Silty Clay
+680,340,Sibusiso's Farm 2,Northern Cape,46;54,Alluvial Soil
+681,341,Sibusiso's Farm 1,Northern Cape,27;71,Black Cotton Soil
+682,341,Sibusiso's Farm 2,Northern Cape,47;59,Red Loam
+683,342,Ayanda's Farm 1,Gauteng,11;33,Alluvial Soil
+684,342,Ayanda's Farm 2,Gauteng,48;59,Alluvial Soil
+685,343,Dineo's Farm 1,Northern Cape,33;43,Red Loam
+686,343,Dineo's Farm 2,Northern Cape,16;88,Loamy
+687,344,Dineo's Farm 1,Eastern Cape,32;17,Loamy
+688,344,Dineo's Farm 2,Eastern Cape,43;08,Red Loam
+689,345,Dineo's Farm 1,Eastern Cape,24;13,Black Cotton Soil
+690,345,Dineo's Farm 2,Eastern Cape,34;45,Alluvial Soil
+691,346,Kagiso's Farm 1,Free State,46;58,Black Cotton Soil
+692,346,Kagiso's Farm 2,Free State,14;3,Loamy
+693,347,Thabo's Farm 1,Western Cape,32;67,Clay Loam
+694,347,Thabo's Farm 2,Western Cape,41;98,Alluvial Soil
+695,348,Nomsa's Farm 1,Limpopo,26;02,Clay Loam
+696,348,Nomsa's Farm 2,Limpopo,12;08,Loamy
+697,349,Lerato's Farm 1,KZN,27;15,Black Cotton Soil
+698,349,Lerato's Farm 2,KZN,14;81,Loamy
+699,350,Tshepo's Farm 1,KZN,22;35,Clay Loam
+700,350,Tshepo's Farm 2,KZN,38;93,Alluvial Soil
+701,351,Sipho's Farm 1,Western Cape,33;19,Alluvial Soil
+702,351,Sipho's Farm 2,Western Cape,33;53,Clay Loam
+703,352,Ayanda's Farm 1,Free State,26;98,Black Cotton Soil
+704,352,Ayanda's Farm 2,Free State,14;2,Alluvial Soil
+705,353,Lerato's Farm 1,North West,48;76,Black Cotton Soil
+706,353,Lerato's Farm 2,North West,39;67,Alluvial Soil
+707,354,Nomsa's Farm 1,KZN,39;69,Alluvial Soil
+708,354,Nomsa's Farm 2,KZN,49;25,Alluvial Soil
+709,355,Sipho's Farm 1,Free State,28;23,Red Loam
+710,355,Sipho's Farm 2,Free State,14;41,Red Loam
+711,356,Thabo's Farm 1,Northern Cape,16;98,Loamy
+712,356,Thabo's Farm 2,Northern Cape,31;69,Clay Loam
+713,357,Thabo's Farm 1,Western Cape,37;39,Loamy
+714,357,Thabo's Farm 2,Western Cape,36;37,Alluvial Soil
+715,358,Thabo's Farm 1,KZN,46;07,Red Loam
+716,358,Thabo's Farm 2,KZN,25;66,Loamy
+717,359,Dineo's Farm 1,Western Cape,46;59,Red Loam
+718,359,Dineo's Farm 2,Western Cape,23;6,Alluvial Soil
+719,360,Buhle's Farm 1,Limpopo,47;02,Alluvial Soil
+720,360,Buhle's Farm 2,Limpopo,39;66,Alluvial Soil
+721,361,Ayanda's Farm 1,Free State,17;82,Alluvial Soil
+722,361,Ayanda's Farm 2,Free State,49;74,Red Loam
+723,362,Sipho's Farm 1,Northern Cape,32;01,Clay Loam
+724,362,Sipho's Farm 2,Northern Cape,21;98,Silty Clay
+725,363,Sipho's Farm 1,Free State,36;12,Clay Loam
+726,363,Sipho's Farm 2,Free State,35;82,Black Cotton Soil
+727,364,Ayanda's Farm 1,Mpumalanga,16;8,Alluvial Soil
+728,364,Ayanda's Farm 2,Mpumalanga,38;32,Black Cotton Soil
+729,365,Kagiso's Farm 1,KZN,26;46,Clay Loam
+730,365,Kagiso's Farm 2,KZN,30;76,Clay Loam
+731,366,Buhle's Farm 1,KZN,48;87,Clay Loam
+732,366,Buhle's Farm 2,KZN,11;64,Clay Loam
+733,367,Buhle's Farm 1,Eastern Cape,18;74,Red Loam
+734,367,Buhle's Farm 2,Eastern Cape,46;92,Loamy
+735,368,Tshepo's Farm 1,Gauteng,36;14,Loamy
+736,368,Tshepo's Farm 2,Gauteng,10;14,Black Cotton Soil
+737,369,Dineo's Farm 1,Free State,11;29,Clay Loam
+738,369,Dineo's Farm 2,Free State,31;49,Clay Loam
+739,370,Lerato's Farm 1,KZN,10;35,Red Loam
+740,370,Lerato's Farm 2,KZN,39;74,Silty Clay
+741,371,Tshepo's Farm 1,KZN,43;24,Clay Loam
+742,371,Tshepo's Farm 2,KZN,20;68,Red Loam
+743,372,Sibusiso's Farm 1,KZN,13;2,Alluvial Soil
+744,372,Sibusiso's Farm 2,KZN,46;11,Alluvial Soil
+745,373,Sibusiso's Farm 1,Limpopo,10;84,Red Loam
+746,373,Sibusiso's Farm 2,Limpopo,31;98,Black Cotton Soil
+747,374,Sipho's Farm 1,Gauteng,25;39,Silty Clay
+748,374,Sipho's Farm 2,Gauteng,48;55,Loamy
+749,375,Sibusiso's Farm 1,North West,42;63,Red Loam
+750,375,Sibusiso's Farm 2,North West,32;88,Alluvial Soil
+751,376,Dineo's Farm 1,Eastern Cape,21;64,Clay Loam
+752,376,Dineo's Farm 2,Eastern Cape,41;26,Black Cotton Soil
+753,377,Sipho's Farm 1,Western Cape,17;51,Loamy
+754,377,Sipho's Farm 2,Western Cape,30;11,Alluvial Soil
+755,378,Sipho's Farm 1,KZN,28;12,Silty Clay
+756,378,Sipho's Farm 2,KZN,32;76,Black Cotton Soil
+757,379,Lerato's Farm 1,Western Cape,32;04,Loamy
+758,379,Lerato's Farm 2,Western Cape,28;53,Red Loam
+759,380,Dineo's Farm 1,Northern Cape,46;72,Clay Loam
+760,380,Dineo's Farm 2,Northern Cape,16;53,Silty Clay
+761,381,Ayanda's Farm 1,North West,40;64,Alluvial Soil
+762,381,Ayanda's Farm 2,North West,49;7,Alluvial Soil
+763,382,Tshepo's Farm 1,KZN,28;84,Silty Clay
+764,382,Tshepo's Farm 2,KZN,16;68,Black Cotton Soil
+765,383,Lerato's Farm 1,Free State,18;43,Black Cotton Soil
+766,383,Lerato's Farm 2,Free State,30;07,Clay Loam
+767,384,Sipho's Farm 1,Gauteng,17;19,Alluvial Soil
+768,384,Sipho's Farm 2,Gauteng,17;18,Black Cotton Soil
+769,385,Ayanda's Farm 1,North West,27;71,Black Cotton Soil
+770,385,Ayanda's Farm 2,North West,30;91,Alluvial Soil
+771,386,Sibusiso's Farm 1,North West,24;16,Alluvial Soil
+772,386,Sibusiso's Farm 2,North West,28;86,Black Cotton Soil
+773,387,Thabo's Farm 1,Gauteng,17;74,Alluvial Soil
+774,387,Thabo's Farm 2,Gauteng,13;2,Silty Clay
+775,388,Nomsa's Farm 1,Mpumalanga,49;37,Clay Loam
+776,388,Nomsa's Farm 2,Mpumalanga,13;7,Silty Clay
+777,389,Thabo's Farm 1,Eastern Cape,33;49,Clay Loam
+778,389,Thabo's Farm 2,Eastern Cape,14;61,Clay Loam
+779,390,Sipho's Farm 1,Gauteng,21;75,Alluvial Soil
+780,390,Sipho's Farm 2,Gauteng,16;47,Red Loam
+781,391,Sipho's Farm 1,KZN,47;07,Alluvial Soil
+782,391,Sipho's Farm 2,KZN,41;38,Alluvial Soil
+783,392,Ayanda's Farm 1,Gauteng,45;54,Clay Loam
+784,392,Ayanda's Farm 2,Gauteng,29;2,Red Loam
+785,393,Sipho's Farm 1,KZN,44;75,Alluvial Soil
+786,393,Sipho's Farm 2,KZN,22;2,Clay Loam
+787,394,Kagiso's Farm 1,Northern Cape,42;31,Clay Loam
+788,394,Kagiso's Farm 2,Northern Cape,10;32,Alluvial Soil
+789,395,Kagiso's Farm 1,Gauteng,31;08,Silty Clay
+790,395,Kagiso's Farm 2,Gauteng,37;9,Black Cotton Soil
+791,396,Thabo's Farm 1,KZN,21;71,Red Loam
+792,396,Thabo's Farm 2,KZN,34;01,Alluvial Soil
+793,397,Tshepo's Farm 1,KZN,27;37,Loamy
+794,397,Tshepo's Farm 2,KZN,36;84,Alluvial Soil
+795,398,Sipho's Farm 1,Free State,39;88,Alluvial Soil
+796,398,Sipho's Farm 2,Free State,20;04,Black Cotton Soil
+797,399,Lerato's Farm 1,Eastern Cape,28;9,Red Loam
+798,399,Lerato's Farm 2,Eastern Cape,12;39,Silty Clay
+799,400,Sibusiso's Farm 1,North West,14;92,Black Cotton Soil
+800,400,Sibusiso's Farm 2,North West,39;69,Alluvial Soil
+801,401,Kagiso's Farm 1,Limpopo,26;39,Silty Clay
+802,401,Kagiso's Farm 2,Limpopo,28;71,Loamy
+803,402,Thabo's Farm 1,Eastern Cape,46;45,Red Loam
+804,402,Thabo's Farm 2,Eastern Cape,37;11,Silty Clay
+805,403,Buhle's Farm 1,Eastern Cape,18;08,Clay Loam
+806,403,Buhle's Farm 2,Eastern Cape,40;61,Alluvial Soil
+807,404,Kagiso's Farm 1,Limpopo,17;72,Black Cotton Soil
+808,404,Kagiso's Farm 2,Limpopo,30;89,Loamy
+809,405,Sipho's Farm 1,Gauteng,22;71,Red Loam
+810,405,Sipho's Farm 2,Gauteng,29;67,Alluvial Soil
+811,406,Sibusiso's Farm 1,Gauteng,35;58,Black Cotton Soil
+812,406,Sibusiso's Farm 2,Gauteng,47;66,Alluvial Soil
+813,407,Tshepo's Farm 1,North West,36;7,Red Loam
+814,407,Tshepo's Farm 2,North West,42;45,Loamy
+815,408,Lerato's Farm 1,KZN,14;69,Black Cotton Soil
+816,408,Lerato's Farm 2,KZN,39;43,Alluvial Soil
+817,409,Ayanda's Farm 1,Mpumalanga,34;79,Red Loam
+818,409,Ayanda's Farm 2,Mpumalanga,16;86,Alluvial Soil
+819,410,Thabo's Farm 1,North West,24;51,Black Cotton Soil
+820,410,Thabo's Farm 2,North West,13;33,Black Cotton Soil
+821,411,Sibusiso's Farm 1,KZN,23;55,Clay Loam
+822,411,Sibusiso's Farm 2,KZN,40;72,Silty Clay
+823,412,Nomsa's Farm 1,Free State,14;87,Clay Loam
+824,412,Nomsa's Farm 2,Free State,24;36,Alluvial Soil
+825,413,Sibusiso's Farm 1,Western Cape,17;43,Alluvial Soil
+826,413,Sibusiso's Farm 2,Western Cape,14;72,Clay Loam
+827,414,Kagiso's Farm 1,Free State,12;15,Alluvial Soil
+828,414,Kagiso's Farm 2,Free State,19;74,Alluvial Soil
+829,415,Nomsa's Farm 1,Mpumalanga,27;99,Silty Clay
+830,415,Nomsa's Farm 2,Mpumalanga,25;93,Loamy
+831,416,Ayanda's Farm 1,North West,49;89,Black Cotton Soil
+832,416,Ayanda's Farm 2,North West,21;73,Black Cotton Soil
+833,417,Sibusiso's Farm 1,Western Cape,30;83,Red Loam
+834,417,Sibusiso's Farm 2,Western Cape,22;49,Silty Clay
+835,418,Sipho's Farm 1,Eastern Cape,26;36,Black Cotton Soil
+836,418,Sipho's Farm 2,Eastern Cape,39;34,Red Loam
+837,419,Thabo's Farm 1,Mpumalanga,38;27,Alluvial Soil
+838,419,Thabo's Farm 2,Mpumalanga,31;33,Silty Clay
+839,420,Ayanda's Farm 1,Northern Cape,39;69,Silty Clay
+840,420,Ayanda's Farm 2,Northern Cape,44;39,Silty Clay
+841,421,Sibusiso's Farm 1,Eastern Cape,25;75,Alluvial Soil
+842,421,Sibusiso's Farm 2,Eastern Cape,46;57,Loamy
+843,422,Kagiso's Farm 1,Northern Cape,28;17,Silty Clay
+844,422,Kagiso's Farm 2,Northern Cape,47;12,Red Loam
+845,423,Ayanda's Farm 1,KZN,32;83,Clay Loam
+846,423,Ayanda's Farm 2,KZN,28;07,Alluvial Soil
+847,424,Buhle's Farm 1,Gauteng,15;44,Alluvial Soil
+848,424,Buhle's Farm 2,Gauteng,35;13,Red Loam
+849,425,Lerato's Farm 1,Limpopo,48;7,Loamy
+850,425,Lerato's Farm 2,Limpopo,48;79,Silty Clay
+851,426,Dineo's Farm 1,Western Cape,10;27,Alluvial Soil
+852,426,Dineo's Farm 2,Western Cape,29;32,Black Cotton Soil
+853,427,Kagiso's Farm 1,Northern Cape,19;2,Silty Clay
+854,427,Kagiso's Farm 2,Northern Cape,35;06,Clay Loam
+855,428,Sipho's Farm 1,Eastern Cape,23;48,Alluvial Soil
+856,428,Sipho's Farm 2,Eastern Cape,16;3,Alluvial Soil
+857,429,Sibusiso's Farm 1,Gauteng,35;05,Loamy
+858,429,Sibusiso's Farm 2,Gauteng,40;59,Loamy
+859,430,Ayanda's Farm 1,Gauteng,36;54,Loamy
+860,430,Ayanda's Farm 2,Gauteng,17;02,Loamy
+861,431,Thabo's Farm 1,North West,44;22,Black Cotton Soil
+862,431,Thabo's Farm 2,North West,42;32,Loamy
+863,432,Nomsa's Farm 1,Eastern Cape,16;75,Alluvial Soil
+864,432,Nomsa's Farm 2,Eastern Cape,35;89,Red Loam
+865,433,Dineo's Farm 1,Free State,19;51,Red Loam
+866,433,Dineo's Farm 2,Free State,26;45,Black Cotton Soil
+867,434,Kagiso's Farm 1,Free State,29;25,Black Cotton Soil
+868,434,Kagiso's Farm 2,Free State,23;67,Silty Clay
+869,435,Nomsa's Farm 1,Northern Cape,27;46,Silty Clay
+870,435,Nomsa's Farm 2,Northern Cape,46;95,Loamy
+871,436,Tshepo's Farm 1,Mpumalanga,41;04,Red Loam
+872,436,Tshepo's Farm 2,Mpumalanga,26;5,Red Loam
+873,437,Buhle's Farm 1,Northern Cape,14;57,Silty Clay
+874,437,Buhle's Farm 2,Northern Cape,20;01,Loamy
+875,438,Sibusiso's Farm 1,KZN,16;39,Black Cotton Soil
+876,438,Sibusiso's Farm 2,KZN,13;9,Red Loam
+877,439,Lerato's Farm 1,Eastern Cape,48;51,Alluvial Soil
+878,439,Lerato's Farm 2,Eastern Cape,29;3,Silty Clay
+879,440,Dineo's Farm 1,Free State,16;9,Silty Clay
+880,440,Dineo's Farm 2,Free State,25;85,Silty Clay
+881,441,Dineo's Farm 1,KZN,37;5,Alluvial Soil
+882,441,Dineo's Farm 2,KZN,47;99,Black Cotton Soil
+883,442,Lerato's Farm 1,Free State,28;15,Black Cotton Soil
+884,442,Lerato's Farm 2,Free State,30;7,Loamy
+885,443,Dineo's Farm 1,North West,38;32,Silty Clay
+886,443,Dineo's Farm 2,North West,35;66,Clay Loam
+887,444,Sibusiso's Farm 1,Eastern Cape,18;63,Loamy
+888,444,Sibusiso's Farm 2,Eastern Cape,23;69,Loamy
+889,445,Kagiso's Farm 1,Western Cape,16;01,Loamy
+890,445,Kagiso's Farm 2,Western Cape,10;91,Red Loam
+891,446,Kagiso's Farm 1,Western Cape,34;26,Black Cotton Soil
+892,446,Kagiso's Farm 2,Western Cape,34;89,Red Loam
+893,447,Nomsa's Farm 1,North West,36;98,Black Cotton Soil
+894,447,Nomsa's Farm 2,North West,35;65,Black Cotton Soil
+895,448,Sibusiso's Farm 1,Gauteng,11;56,Alluvial Soil
+896,448,Sibusiso's Farm 2,Gauteng,19;64,Loamy
+897,449,Dineo's Farm 1,KZN,48;11,Black Cotton Soil
+898,449,Dineo's Farm 2,KZN,27;28,Alluvial Soil
+899,450,Tshepo's Farm 1,KZN,41;63,Alluvial Soil
+900,450,Tshepo's Farm 2,KZN,20;09,Black Cotton Soil
+901,451,Kagiso's Farm 1,KZN,47;43,Loamy
+902,451,Kagiso's Farm 2,KZN,25;13,Red Loam
+903,452,Dineo's Farm 1,Gauteng,46;36,Red Loam
+904,452,Dineo's Farm 2,Gauteng,34;49,Alluvial Soil
+905,453,Thabo's Farm 1,Northern Cape,30;36,Silty Clay
+906,453,Thabo's Farm 2,Northern Cape,21;75,Loamy
+907,454,Sibusiso's Farm 1,Gauteng,22;92,Red Loam
+908,454,Sibusiso's Farm 2,Gauteng,40;67,Loamy
+909,455,Lerato's Farm 1,Eastern Cape,18;89,Clay Loam
+910,455,Lerato's Farm 2,Eastern Cape,45;62,Alluvial Soil
+911,456,Lerato's Farm 1,Mpumalanga,46;49,Alluvial Soil
+912,456,Lerato's Farm 2,Mpumalanga,12;62,Red Loam
+913,457,Sipho's Farm 1,Eastern Cape,14;42,Black Cotton Soil
+914,457,Sipho's Farm 2,Eastern Cape,24;46,Black Cotton Soil
+915,458,Lerato's Farm 1,North West,34;96,Silty Clay
+916,458,Lerato's Farm 2,North West,22;98,Clay Loam
+917,459,Sibusiso's Farm 1,North West,43;99,Silty Clay
+918,459,Sibusiso's Farm 2,North West,41;19,Silty Clay
+919,460,Dineo's Farm 1,North West,17;31,Red Loam
+920,460,Dineo's Farm 2,North West,41;13,Alluvial Soil
+921,461,Sipho's Farm 1,Eastern Cape,48;84,Red Loam
+922,461,Sipho's Farm 2,Eastern Cape,14;84,Red Loam
+923,462,Lerato's Farm 1,Eastern Cape,34;17,Clay Loam
+924,462,Lerato's Farm 2,Eastern Cape,40;71,Clay Loam
+925,463,Ayanda's Farm 1,Mpumalanga,41;34,Clay Loam
+926,463,Ayanda's Farm 2,Mpumalanga,38;37,Black Cotton Soil
+927,464,Nomsa's Farm 1,Gauteng,48;28,Silty Clay
+928,464,Nomsa's Farm 2,Gauteng,35;94,Loamy
+929,465,Lerato's Farm 1,Northern Cape,13;21,Black Cotton Soil
+930,465,Lerato's Farm 2,Northern Cape,37;92,Silty Clay
+931,466,Lerato's Farm 1,KZN,26;87,Alluvial Soil
+932,466,Lerato's Farm 2,KZN,21;31,Loamy
+933,467,Ayanda's Farm 1,Eastern Cape,11;73,Alluvial Soil
+934,467,Ayanda's Farm 2,Eastern Cape,18;82,Alluvial Soil
+935,468,Thabo's Farm 1,Limpopo,46;04,Clay Loam
+936,468,Thabo's Farm 2,Limpopo,47;74,Silty Clay
+937,469,Buhle's Farm 1,Limpopo,29;38,Alluvial Soil
+938,469,Buhle's Farm 2,Limpopo,45;98,Clay Loam
+939,470,Sibusiso's Farm 1,Eastern Cape,40;66,Silty Clay
+940,470,Sibusiso's Farm 2,Eastern Cape,18;25,Alluvial Soil
+941,471,Tshepo's Farm 1,Mpumalanga,41;32,Loamy
+942,471,Tshepo's Farm 2,Mpumalanga,45;27,Clay Loam
+943,472,Thabo's Farm 1,Free State,38;06,Red Loam
+944,472,Thabo's Farm 2,Free State,23;83,Silty Clay
+945,473,Kagiso's Farm 1,Gauteng,42;54,Red Loam
+946,473,Kagiso's Farm 2,Gauteng,25;22,Black Cotton Soil
+947,474,Tshepo's Farm 1,Mpumalanga,14;64,Silty Clay
+948,474,Tshepo's Farm 2,Mpumalanga,28;78,Loamy
+949,475,Tshepo's Farm 1,Western Cape,28;07,Loamy
+950,475,Tshepo's Farm 2,Western Cape,35;13,Black Cotton Soil
+951,476,Ayanda's Farm 1,Western Cape,48,Alluvial Soil
+952,476,Ayanda's Farm 2,Western Cape,24;84,Silty Clay
+953,477,Buhle's Farm 1,Western Cape,24;48,Clay Loam
+954,477,Buhle's Farm 2,Western Cape,11;74,Alluvial Soil
+955,478,Sipho's Farm 1,Free State,29;3,Silty Clay
+956,478,Sipho's Farm 2,Free State,21;27,Red Loam
+957,479,Nomsa's Farm 1,Mpumalanga,24;47,Red Loam
+958,479,Nomsa's Farm 2,Mpumalanga,33;01,Clay Loam
+959,480,Kagiso's Farm 1,Gauteng,12;6,Alluvial Soil
+960,480,Kagiso's Farm 2,Gauteng,25;86,Clay Loam
+961,481,Ayanda's Farm 1,Northern Cape,35;81,Red Loam
+962,481,Ayanda's Farm 2,Northern Cape,11;9,Clay Loam
+963,482,Buhle's Farm 1,Northern Cape,47;03,Clay Loam
+964,482,Buhle's Farm 2,Northern Cape,21;7,Loamy
+965,483,Tshepo's Farm 1,KZN,31;19,Alluvial Soil
+966,483,Tshepo's Farm 2,KZN,39;03,Red Loam
+967,484,Buhle's Farm 1,Mpumalanga,40;63,Black Cotton Soil
+968,484,Buhle's Farm 2,Mpumalanga,49;59,Alluvial Soil
+969,485,Tshepo's Farm 1,Free State,38;73,Silty Clay
+970,485,Tshepo's Farm 2,Free State,48;25,Silty Clay
+971,486,Thabo's Farm 1,Eastern Cape,40;11,Silty Clay
+972,486,Thabo's Farm 2,Eastern Cape,49;42,Silty Clay
+973,487,Kagiso's Farm 1,Mpumalanga,27;99,Red Loam
+974,487,Kagiso's Farm 2,Mpumalanga,20;13,Silty Clay
+975,488,Dineo's Farm 1,Free State,43;79,Loamy
+976,488,Dineo's Farm 2,Free State,48;36,Silty Clay
+977,489,Ayanda's Farm 1,Northern Cape,35;04,Silty Clay
+978,489,Ayanda's Farm 2,Northern Cape,48;72,Clay Loam
+979,490,Kagiso's Farm 1,Gauteng,44;37,Clay Loam
+980,490,Kagiso's Farm 2,Gauteng,32;06,Loamy
+981,491,Dineo's Farm 1,Eastern Cape,10;32,Alluvial Soil
+982,491,Dineo's Farm 2,Eastern Cape,27;12,Black Cotton Soil
+983,492,Lerato's Farm 1,Gauteng,39;8,Black Cotton Soil
+984,492,Lerato's Farm 2,Gauteng,46;83,Red Loam
+985,493,Lerato's Farm 1,Eastern Cape,40;73,Red Loam
+986,493,Lerato's Farm 2,Eastern Cape,34;56,Black Cotton Soil
+987,494,Tshepo's Farm 1,KZN,10;32,Alluvial Soil
+988,494,Tshepo's Farm 2,KZN,29;76,Clay Loam
+989,495,Tshepo's Farm 1,Western Cape,40;68,Red Loam
+990,495,Tshepo's Farm 2,Western Cape,38;8,Clay Loam
+991,496,Kagiso's Farm 1,Mpumalanga,13;01,Alluvial Soil
+992,496,Kagiso's Farm 2,Mpumalanga,18;8,Silty Clay
+993,497,Nomsa's Farm 1,Eastern Cape,46;65,Clay Loam
+994,497,Nomsa's Farm 2,Eastern Cape,14;71,Silty Clay
+995,498,Lerato's Farm 1,Eastern Cape,35,Red Loam
+996,498,Lerato's Farm 2,Eastern Cape,10;68,Black Cotton Soil
+997,499,Buhle's Farm 1,Limpopo,44;11,Alluvial Soil
+998,499,Buhle's Farm 2,Limpopo,25;71,Red Loam
+999,500,Thabo's Farm 1,KZN,48;4,Silty Clay
+1000,500,Thabo's Farm 2,KZN,33;91,Alluvial Soil
+1001,501,Nomsa's Farm 1,Eastern Cape,40;94,Silty Clay
+1002,501,Nomsa's Farm 2,Eastern Cape,33;58,Loamy
+1003,502,Thabo's Farm 1,North West,30;92,Clay Loam
+1004,502,Thabo's Farm 2,North West,29;17,Black Cotton Soil
+1005,503,Nomsa's Farm 1,KZN,45;5,Red Loam
+1006,503,Nomsa's Farm 2,KZN,27;21,Loamy
+1007,504,Buhle's Farm 1,Limpopo,29;26,Clay Loam
+1008,504,Buhle's Farm 2,Limpopo,48;32,Loamy
+1009,505,Thabo's Farm 1,Gauteng,40;36,Loamy
+1010,505,Thabo's Farm 2,Gauteng,37;63,Black Cotton Soil
+1011,506,Dineo's Farm 1,Western Cape,26;81,Black Cotton Soil
+1012,506,Dineo's Farm 2,Western Cape,15;76,Alluvial Soil
+1013,507,Ayanda's Farm 1,Free State,37;28,Loamy
+1014,507,Ayanda's Farm 2,Free State,42;31,Loamy
+1015,508,Dineo's Farm 1,Eastern Cape,34;11,Red Loam
+1016,508,Dineo's Farm 2,Eastern Cape,21;89,Silty Clay
+1017,509,Ayanda's Farm 1,Western Cape,14;28,Red Loam
+1018,509,Ayanda's Farm 2,Western Cape,28;33,Black Cotton Soil
+1019,510,Kagiso's Farm 1,Eastern Cape,23;81,Loamy
+1020,510,Kagiso's Farm 2,Eastern Cape,44;79,Black Cotton Soil
+1021,511,Buhle's Farm 1,Eastern Cape,40;36,Silty Clay
+1022,511,Buhle's Farm 2,Eastern Cape,29;87,Alluvial Soil
+1023,512,Sipho's Farm 1,KZN,24;49,Alluvial Soil
+1024,512,Sipho's Farm 2,KZN,11;41,Black Cotton Soil
+1025,513,Kagiso's Farm 1,Limpopo,48;6,Clay Loam
+1026,513,Kagiso's Farm 2,Limpopo,10;59,Alluvial Soil
+1027,514,Tshepo's Farm 1,KZN,37;51,Loamy
+1028,514,Tshepo's Farm 2,KZN,29;66,Clay Loam
+1029,515,Sipho's Farm 1,North West,23;62,Black Cotton Soil
+1030,515,Sipho's Farm 2,North West,28;55,Silty Clay
+1031,516,Sipho's Farm 1,Limpopo,29;62,Silty Clay
+1032,516,Sipho's Farm 2,Limpopo,11;1,Clay Loam
+1033,517,Lerato's Farm 1,Eastern Cape,26;53,Loamy
+1034,517,Lerato's Farm 2,Eastern Cape,11;9,Red Loam
+1035,518,Sipho's Farm 1,Western Cape,44;46,Silty Clay
+1036,518,Sipho's Farm 2,Western Cape,39;12,Red Loam
+1037,519,Sibusiso's Farm 1,North West,16;62,Loamy
+1038,519,Sibusiso's Farm 2,North West,39;9,Alluvial Soil
+1039,520,Lerato's Farm 1,Mpumalanga,11;59,Clay Loam
+1040,520,Lerato's Farm 2,Mpumalanga,34;54,Red Loam
+1041,521,Tshepo's Farm 1,Limpopo,12;49,Clay Loam
+1042,521,Tshepo's Farm 2,Limpopo,14;81,Clay Loam
+1043,522,Lerato's Farm 1,Limpopo,38;22,Silty Clay
+1044,522,Lerato's Farm 2,Limpopo,38;04,Loamy
+1045,523,Dineo's Farm 1,Eastern Cape,22;66,Clay Loam
+1046,523,Dineo's Farm 2,Eastern Cape,20;02,Red Loam
+1047,524,Dineo's Farm 1,Northern Cape,34;42,Silty Clay
+1048,524,Dineo's Farm 2,Northern Cape,15;09,Silty Clay
+1049,525,Ayanda's Farm 1,North West,28;39,Clay Loam
+1050,525,Ayanda's Farm 2,North West,30;04,Clay Loam
+1051,526,Kagiso's Farm 1,KZN,42;59,Silty Clay
+1052,526,Kagiso's Farm 2,KZN,36;86,Black Cotton Soil
+1053,527,Sipho's Farm 1,Mpumalanga,33;66,Clay Loam
+1054,527,Sipho's Farm 2,Mpumalanga,40;38,Black Cotton Soil
+1055,528,Sipho's Farm 1,Free State,23;74,Black Cotton Soil
+1056,528,Sipho's Farm 2,Free State,17;88,Loamy
+1057,529,Tshepo's Farm 1,Western Cape,10;01,Black Cotton Soil
+1058,529,Tshepo's Farm 2,Western Cape,24;54,Clay Loam
+1059,530,Tshepo's Farm 1,Gauteng,20;96,Red Loam
+1060,530,Tshepo's Farm 2,Gauteng,28;47,Loamy
+1061,531,Sibusiso's Farm 1,Western Cape,23;63,Loamy
+1062,531,Sibusiso's Farm 2,Western Cape,24;27,Black Cotton Soil
+1063,532,Lerato's Farm 1,KZN,14;67,Alluvial Soil
+1064,532,Lerato's Farm 2,KZN,12;97,Red Loam
+1065,533,Nomsa's Farm 1,Northern Cape,47;82,Silty Clay
+1066,533,Nomsa's Farm 2,Northern Cape,28;92,Red Loam
+1067,534,Nomsa's Farm 1,Limpopo,39;15,Clay Loam
+1068,534,Nomsa's Farm 2,Limpopo,10;19,Red Loam
+1069,535,Lerato's Farm 1,KZN,34;13,Black Cotton Soil
+1070,535,Lerato's Farm 2,KZN,37;67,Silty Clay
+1071,536,Buhle's Farm 1,Free State,34;53,Loamy
+1072,536,Buhle's Farm 2,Free State,36;89,Red Loam
+1073,537,Sibusiso's Farm 1,Mpumalanga,10;97,Loamy
+1074,537,Sibusiso's Farm 2,Mpumalanga,39;26,Alluvial Soil
+1075,538,Nomsa's Farm 1,KZN,13;23,Alluvial Soil
+1076,538,Nomsa's Farm 2,KZN,13;63,Red Loam
+1077,539,Thabo's Farm 1,Gauteng,44;71,Silty Clay
+1078,539,Thabo's Farm 2,Gauteng,49;2,Red Loam
+1079,540,Dineo's Farm 1,North West,10;19,Loamy
+1080,540,Dineo's Farm 2,North West,29;24,Black Cotton Soil
+1081,541,Nomsa's Farm 1,North West,20;23,Loamy
+1082,541,Nomsa's Farm 2,North West,36;77,Alluvial Soil
+1083,542,Buhle's Farm 1,Free State,13;43,Silty Clay
+1084,542,Buhle's Farm 2,Free State,25;28,Red Loam
+1085,543,Nomsa's Farm 1,Mpumalanga,35;59,Black Cotton Soil
+1086,543,Nomsa's Farm 2,Mpumalanga,34;5,Red Loam
+1087,544,Ayanda's Farm 1,Mpumalanga,12;1,Loamy
+1088,544,Ayanda's Farm 2,Mpumalanga,27;1,Clay Loam
+1089,545,Sipho's Farm 1,Western Cape,24;38,Black Cotton Soil
+1090,545,Sipho's Farm 2,Western Cape,34;63,Alluvial Soil
+1091,546,Tshepo's Farm 1,KZN,20;6,Loamy
+1092,546,Tshepo's Farm 2,KZN,35;62,Loamy
+1093,547,Dineo's Farm 1,Northern Cape,21;68,Red Loam
+1094,547,Dineo's Farm 2,Northern Cape,43;7,Clay Loam
+1095,548,Nomsa's Farm 1,Gauteng,22;52,Clay Loam
+1096,548,Nomsa's Farm 2,Gauteng,37;83,Black Cotton Soil
+1097,549,Dineo's Farm 1,Limpopo,11;66,Loamy
+1098,549,Dineo's Farm 2,Limpopo,14;79,Black Cotton Soil
+1099,550,Lerato's Farm 1,Eastern Cape,26;67,Red Loam
+1100,550,Lerato's Farm 2,Eastern Cape,36;88,Black Cotton Soil
+1101,551,Thabo's Farm 1,KZN,40;31,Loamy
+1102,551,Thabo's Farm 2,KZN,23;05,Silty Clay
+1103,552,Thabo's Farm 1,Limpopo,21;96,Silty Clay
+1104,552,Thabo's Farm 2,Limpopo,36;53,Red Loam
+1105,553,Kagiso's Farm 1,Eastern Cape,11;31,Red Loam
+1106,553,Kagiso's Farm 2,Eastern Cape,26;94,Silty Clay
+1107,554,Buhle's Farm 1,Free State,26;62,Black Cotton Soil
+1108,554,Buhle's Farm 2,Free State,23;2,Loamy
+1109,555,Tshepo's Farm 1,Mpumalanga,25;91,Black Cotton Soil
+1110,555,Tshepo's Farm 2,Mpumalanga,36;76,Clay Loam
+1111,556,Ayanda's Farm 1,Northern Cape,35;77,Loamy
+1112,556,Ayanda's Farm 2,Northern Cape,25;77,Silty Clay
+1113,557,Thabo's Farm 1,Eastern Cape,48;69,Loamy
+1114,557,Thabo's Farm 2,Eastern Cape,38;4,Alluvial Soil
+1115,558,Tshepo's Farm 1,Gauteng,48;67,Alluvial Soil
+1116,558,Tshepo's Farm 2,Gauteng,43;52,Black Cotton Soil
+1117,559,Nomsa's Farm 1,Limpopo,47;08,Loamy
+1118,559,Nomsa's Farm 2,Limpopo,18;77,Clay Loam
+1119,560,Dineo's Farm 1,Eastern Cape,41;28,Clay Loam
+1120,560,Dineo's Farm 2,Eastern Cape,39;41,Alluvial Soil
+1121,561,Thabo's Farm 1,Northern Cape,13;77,Loamy
+1122,561,Thabo's Farm 2,Northern Cape,19;43,Black Cotton Soil
+1123,562,Lerato's Farm 1,Gauteng,41;92,Clay Loam
+1124,562,Lerato's Farm 2,Gauteng,16;26,Black Cotton Soil
+1125,563,Lerato's Farm 1,Limpopo,40;67,Alluvial Soil
+1126,563,Lerato's Farm 2,Limpopo,17;09,Red Loam
+1127,564,Kagiso's Farm 1,Northern Cape,11;7,Silty Clay
+1128,564,Kagiso's Farm 2,Northern Cape,45;74,Black Cotton Soil
+1129,565,Dineo's Farm 1,Gauteng,35;2,Alluvial Soil
+1130,565,Dineo's Farm 2,Gauteng,28;02,Clay Loam
+1131,566,Dineo's Farm 1,North West,35;17,Red Loam
+1132,566,Dineo's Farm 2,North West,42;59,Clay Loam
+1133,567,Sipho's Farm 1,Gauteng,45;49,Red Loam
+1134,567,Sipho's Farm 2,Gauteng,29;16,Silty Clay
+1135,568,Tshepo's Farm 1,Free State,21;39,Loamy
+1136,568,Tshepo's Farm 2,Free State,24;62,Clay Loam
+1137,569,Ayanda's Farm 1,North West,46,Red Loam
+1138,569,Ayanda's Farm 2,North West,19;36,Black Cotton Soil
+1139,570,Buhle's Farm 1,KZN,45;11,Red Loam
+1140,570,Buhle's Farm 2,KZN,34;8,Red Loam
+1141,571,Nomsa's Farm 1,Eastern Cape,45;36,Clay Loam
+1142,571,Nomsa's Farm 2,Eastern Cape,17;55,Alluvial Soil
+1143,572,Sibusiso's Farm 1,Northern Cape,37;01,Loamy
+1144,572,Sibusiso's Farm 2,Northern Cape,34;22,Black Cotton Soil
+1145,573,Sipho's Farm 1,Mpumalanga,17;39,Black Cotton Soil
+1146,573,Sipho's Farm 2,Mpumalanga,34;44,Alluvial Soil
+1147,574,Buhle's Farm 1,North West,40;88,Silty Clay
+1148,574,Buhle's Farm 2,North West,22;93,Silty Clay
+1149,575,Kagiso's Farm 1,Eastern Cape,19;86,Loamy
+1150,575,Kagiso's Farm 2,Eastern Cape,38;02,Loamy
+1151,576,Sipho's Farm 1,Limpopo,42;43,Red Loam
+1152,576,Sipho's Farm 2,Limpopo,20;1,Red Loam
+1153,577,Sipho's Farm 1,Free State,34;28,Loamy
+1154,577,Sipho's Farm 2,Free State,45;27,Clay Loam
+1155,578,Nomsa's Farm 1,Northern Cape,14;39,Clay Loam
+1156,578,Nomsa's Farm 2,Northern Cape,40;66,Red Loam
+1157,579,Sibusiso's Farm 1,Western Cape,21;53,Red Loam
+1158,579,Sibusiso's Farm 2,Western Cape,24;98,Silty Clay
+1159,580,Sipho's Farm 1,Northern Cape,30;74,Red Loam
+1160,580,Sipho's Farm 2,Northern Cape,30;2,Red Loam
+1161,581,Sipho's Farm 1,Northern Cape,16;79,Alluvial Soil
+1162,581,Sipho's Farm 2,Northern Cape,16;1,Red Loam
+1163,582,Ayanda's Farm 1,Limpopo,29;12,Silty Clay
+1164,582,Ayanda's Farm 2,Limpopo,26;11,Silty Clay
+1165,583,Sibusiso's Farm 1,North West,25;73,Alluvial Soil
+1166,583,Sibusiso's Farm 2,North West,23;46,Red Loam
+1167,584,Ayanda's Farm 1,Free State,14;23,Black Cotton Soil
+1168,584,Ayanda's Farm 2,Free State,44;66,Loamy
+1169,585,Nomsa's Farm 1,Gauteng,46;82,Black Cotton Soil
+1170,585,Nomsa's Farm 2,Gauteng,25;49,Red Loam
+1171,586,Lerato's Farm 1,Limpopo,16;98,Clay Loam
+1172,586,Lerato's Farm 2,Limpopo,28;94,Alluvial Soil
+1173,587,Dineo's Farm 1,Gauteng,42;35,Red Loam
+1174,587,Dineo's Farm 2,Gauteng,33;41,Alluvial Soil
+1175,588,Kagiso's Farm 1,North West,14;09,Alluvial Soil
+1176,588,Kagiso's Farm 2,North West,44;73,Silty Clay
+1177,589,Ayanda's Farm 1,Western Cape,32;03,Alluvial Soil
+1178,589,Ayanda's Farm 2,Western Cape,44;11,Alluvial Soil
+1179,590,Buhle's Farm 1,Mpumalanga,36;66,Black Cotton Soil
+1180,590,Buhle's Farm 2,Mpumalanga,17;99,Loamy
+1181,591,Buhle's Farm 1,Mpumalanga,33;98,Silty Clay
+1182,591,Buhle's Farm 2,Mpumalanga,47;31,Clay Loam
+1183,592,Buhle's Farm 1,Gauteng,48;96,Alluvial Soil
+1184,592,Buhle's Farm 2,Gauteng,38;72,Red Loam
+1185,593,Buhle's Farm 1,Free State,46;26,Clay Loam
+1186,593,Buhle's Farm 2,Free State,31;44,Loamy
+1187,594,Nomsa's Farm 1,Western Cape,27;32,Red Loam
+1188,594,Nomsa's Farm 2,Western Cape,36;27,Alluvial Soil
+1189,595,Ayanda's Farm 1,North West,26;9,Clay Loam
+1190,595,Ayanda's Farm 2,North West,46;04,Red Loam
+1191,596,Ayanda's Farm 1,Limpopo,46;26,Silty Clay
+1192,596,Ayanda's Farm 2,Limpopo,22;84,Black Cotton Soil
+1193,597,Tshepo's Farm 1,KZN,49;16,Alluvial Soil
+1194,597,Tshepo's Farm 2,KZN,20;85,Clay Loam
+1195,598,Buhle's Farm 1,Western Cape,39;78,Alluvial Soil
+1196,598,Buhle's Farm 2,Western Cape,25;93,Silty Clay
+1197,599,Sibusiso's Farm 1,Northern Cape,22;45,Clay Loam
+1198,599,Sibusiso's Farm 2,Northern Cape,12;93,Red Loam
+1199,600,Kagiso's Farm 1,North West,23;87,Clay Loam
+1200,600,Kagiso's Farm 2,North West,46;02,Alluvial Soil
+1201,601,Ayanda's Farm 1,Northern Cape,12;77,Alluvial Soil
+1202,601,Ayanda's Farm 2,Northern Cape,13;7,Red Loam
+1203,602,Sibusiso's Farm 1,Western Cape,23;23,Alluvial Soil
+1204,602,Sibusiso's Farm 2,Western Cape,49;72,Red Loam
+1205,603,Sipho's Farm 1,Free State,18;5,Alluvial Soil
+1206,603,Sipho's Farm 2,Free State,29;7,Silty Clay
+1207,604,Thabo's Farm 1,KZN,35;67,Black Cotton Soil
+1208,604,Thabo's Farm 2,KZN,18;35,Clay Loam
+1209,605,Nomsa's Farm 1,Limpopo,15;49,Silty Clay
+1210,605,Nomsa's Farm 2,Limpopo,21;34,Loamy
+1211,606,Thabo's Farm 1,Northern Cape,36;94,Silty Clay
+1212,606,Thabo's Farm 2,Northern Cape,47;86,Alluvial Soil
+1213,607,Buhle's Farm 1,Mpumalanga,46;45,Loamy
+1214,607,Buhle's Farm 2,Mpumalanga,37;85,Loamy
+1215,608,Buhle's Farm 1,Mpumalanga,40;35,Alluvial Soil
+1216,608,Buhle's Farm 2,Mpumalanga,31;74,Clay Loam
+1217,609,Sipho's Farm 1,Gauteng,25;12,Loamy
+1218,609,Sipho's Farm 2,Gauteng,34;87,Loamy
+1219,610,Ayanda's Farm 1,Northern Cape,22;46,Black Cotton Soil
+1220,610,Ayanda's Farm 2,Northern Cape,17;82,Loamy
+1221,611,Thabo's Farm 1,Eastern Cape,46;7,Black Cotton Soil
+1222,611,Thabo's Farm 2,Eastern Cape,10;96,Red Loam
+1223,612,Tshepo's Farm 1,Gauteng,28;37,Loamy
+1224,612,Tshepo's Farm 2,Gauteng,39;44,Red Loam
+1225,613,Thabo's Farm 1,Free State,12;53,Alluvial Soil
+1226,613,Thabo's Farm 2,Free State,33;15,Alluvial Soil
+1227,614,Dineo's Farm 1,KZN,47;1,Alluvial Soil
+1228,614,Dineo's Farm 2,KZN,17;63,Black Cotton Soil
+1229,615,Lerato's Farm 1,Free State,47;92,Loamy
+1230,615,Lerato's Farm 2,Free State,45;26,Clay Loam
+1231,616,Dineo's Farm 1,KZN,16;58,Red Loam
+1232,616,Dineo's Farm 2,KZN,48;39,Clay Loam
+1233,617,Ayanda's Farm 1,Northern Cape,26;76,Clay Loam
+1234,617,Ayanda's Farm 2,Northern Cape,10;42,Black Cotton Soil
+1235,618,Sipho's Farm 1,Limpopo,45;48,Clay Loam
+1236,618,Sipho's Farm 2,Limpopo,45;37,Black Cotton Soil
+1237,619,Ayanda's Farm 1,Mpumalanga,18;43,Loamy
+1238,619,Ayanda's Farm 2,Mpumalanga,15;84,Loamy
+1239,620,Sibusiso's Farm 1,Gauteng,28;3,Loamy
+1240,620,Sibusiso's Farm 2,Gauteng,29;83,Alluvial Soil
+1241,621,Kagiso's Farm 1,North West,26;89,Alluvial Soil
+1242,621,Kagiso's Farm 2,North West,13;91,Alluvial Soil
+1243,622,Sibusiso's Farm 1,Eastern Cape,24;48,Black Cotton Soil
+1244,622,Sibusiso's Farm 2,Eastern Cape,21;36,Black Cotton Soil
+1245,623,Nomsa's Farm 1,Eastern Cape,43;85,Loamy
+1246,623,Nomsa's Farm 2,Eastern Cape,12;57,Clay Loam
+1247,624,Thabo's Farm 1,Western Cape,35;88,Loamy
+1248,624,Thabo's Farm 2,Western Cape,48;15,Loamy
+1249,625,Lerato's Farm 1,Western Cape,33;71,Red Loam
+1250,625,Lerato's Farm 2,Western Cape,24;52,Clay Loam
+1251,626,Sipho's Farm 1,KZN,49;99,Loamy
+1252,626,Sipho's Farm 2,KZN,46;62,Alluvial Soil
+1253,627,Buhle's Farm 1,Northern Cape,49;74,Alluvial Soil
+1254,627,Buhle's Farm 2,Northern Cape,39;18,Red Loam
+1255,628,Thabo's Farm 1,Western Cape,37;64,Loamy
+1256,628,Thabo's Farm 2,Western Cape,15;21,Red Loam
+1257,629,Buhle's Farm 1,Gauteng,35;67,Alluvial Soil
+1258,629,Buhle's Farm 2,Gauteng,40;01,Clay Loam
+1259,630,Lerato's Farm 1,Mpumalanga,39;38,Loamy
+1260,630,Lerato's Farm 2,Mpumalanga,46;39,Red Loam
+1261,631,Sibusiso's Farm 1,Mpumalanga,49;88,Silty Clay
+1262,631,Sibusiso's Farm 2,Mpumalanga,40;34,Alluvial Soil
+1263,632,Lerato's Farm 1,KZN,15;31,Red Loam
+1264,632,Lerato's Farm 2,KZN,48;48,Clay Loam
+1265,633,Sipho's Farm 1,Mpumalanga,18;46,Loamy
+1266,633,Sipho's Farm 2,Mpumalanga,31;13,Red Loam
+1267,634,Dineo's Farm 1,Free State,42;05,Clay Loam
+1268,634,Dineo's Farm 2,Free State,46;06,Clay Loam
+1269,635,Kagiso's Farm 1,Free State,49;14,Clay Loam
+1270,635,Kagiso's Farm 2,Free State,45;51,Silty Clay
+1271,636,Thabo's Farm 1,Northern Cape,44;94,Black Cotton Soil
+1272,636,Thabo's Farm 2,Northern Cape,43;99,Red Loam
+1273,637,Kagiso's Farm 1,Mpumalanga,46;15,Clay Loam
+1274,637,Kagiso's Farm 2,Mpumalanga,31;29,Black Cotton Soil
+1275,638,Tshepo's Farm 1,North West,20;92,Red Loam
+1276,638,Tshepo's Farm 2,North West,24;04,Black Cotton Soil
+1277,639,Sipho's Farm 1,Gauteng,43;7,Black Cotton Soil
+1278,639,Sipho's Farm 2,Gauteng,17;24,Black Cotton Soil
+1279,640,Sibusiso's Farm 1,Gauteng,24;9,Loamy
+1280,640,Sibusiso's Farm 2,Gauteng,39;35,Clay Loam
+1281,641,Sipho's Farm 1,Northern Cape,10;31,Black Cotton Soil
+1282,641,Sipho's Farm 2,Northern Cape,32;03,Black Cotton Soil
+1283,642,Nomsa's Farm 1,Mpumalanga,31;67,Silty Clay
+1284,642,Nomsa's Farm 2,Mpumalanga,49;3,Clay Loam
+1285,643,Buhle's Farm 1,Northern Cape,13;16,Silty Clay
+1286,643,Buhle's Farm 2,Northern Cape,21;69,Black Cotton Soil
+1287,644,Thabo's Farm 1,Limpopo,17;63,Black Cotton Soil
+1288,644,Thabo's Farm 2,Limpopo,47;7,Silty Clay
+1289,645,Sibusiso's Farm 1,Western Cape,34;79,Alluvial Soil
+1290,645,Sibusiso's Farm 2,Western Cape,47;97,Alluvial Soil
+1291,646,Lerato's Farm 1,Eastern Cape,17;13,Clay Loam
+1292,646,Lerato's Farm 2,Eastern Cape,46;6,Black Cotton Soil
+1293,647,Thabo's Farm 1,Mpumalanga,38;38,Loamy
+1294,647,Thabo's Farm 2,Mpumalanga,44;52,Clay Loam
+1295,648,Buhle's Farm 1,Free State,15;46,Silty Clay
+1296,648,Buhle's Farm 2,Free State,46;75,Alluvial Soil
+1297,649,Thabo's Farm 1,Northern Cape,29;9,Black Cotton Soil
+1298,649,Thabo's Farm 2,Northern Cape,25;38,Clay Loam
+1299,650,Sibusiso's Farm 1,Gauteng,48;83,Clay Loam
+1300,650,Sibusiso's Farm 2,Gauteng,19;39,Silty Clay
+1301,651,Kagiso's Farm 1,Western Cape,21;92,Clay Loam
+1302,651,Kagiso's Farm 2,Western Cape,33;5,Red Loam
+1303,652,Nomsa's Farm 1,Gauteng,25;64,Alluvial Soil
+1304,652,Nomsa's Farm 2,Gauteng,22;94,Clay Loam
+1305,653,Dineo's Farm 1,KZN,34;19,Red Loam
+1306,653,Dineo's Farm 2,KZN,46;42,Silty Clay
+1307,654,Thabo's Farm 1,Limpopo,14;53,Alluvial Soil
+1308,654,Thabo's Farm 2,Limpopo,14;2,Red Loam
+1309,655,Tshepo's Farm 1,Western Cape,35;07,Loamy
+1310,655,Tshepo's Farm 2,Western Cape,46;85,Black Cotton Soil
+1311,656,Ayanda's Farm 1,Free State,32;48,Red Loam
+1312,656,Ayanda's Farm 2,Free State,17;5,Red Loam
+1313,657,Thabo's Farm 1,North West,31;61,Silty Clay
+1314,657,Thabo's Farm 2,North West,10;23,Black Cotton Soil
+1315,658,Lerato's Farm 1,Free State,15;31,Black Cotton Soil
+1316,658,Lerato's Farm 2,Free State,30;18,Silty Clay
+1317,659,Tshepo's Farm 1,Eastern Cape,39;89,Silty Clay
+1318,659,Tshepo's Farm 2,Eastern Cape,32;17,Alluvial Soil
+1319,660,Nomsa's Farm 1,Northern Cape,38;31,Loamy
+1320,660,Nomsa's Farm 2,Northern Cape,15;49,Alluvial Soil
+1321,661,Sipho's Farm 1,Free State,37;62,Black Cotton Soil
+1322,661,Sipho's Farm 2,Free State,35;98,Silty Clay
+1323,662,Sipho's Farm 1,KZN,28;42,Black Cotton Soil
+1324,662,Sipho's Farm 2,KZN,42;11,Black Cotton Soil
+1325,663,Nomsa's Farm 1,Gauteng,29;98,Red Loam
+1326,663,Nomsa's Farm 2,Gauteng,38;2,Alluvial Soil
+1327,664,Nomsa's Farm 1,Eastern Cape,21;92,Red Loam
+1328,664,Nomsa's Farm 2,Eastern Cape,46;67,Black Cotton Soil
+1329,665,Tshepo's Farm 1,North West,10;82,Alluvial Soil
+1330,665,Tshepo's Farm 2,North West,20;95,Loamy
+1331,666,Buhle's Farm 1,North West,43;69,Red Loam
+1332,666,Buhle's Farm 2,North West,17;69,Alluvial Soil
+1333,667,Lerato's Farm 1,Western Cape,18;04,Black Cotton Soil
+1334,667,Lerato's Farm 2,Western Cape,35;74,Black Cotton Soil
+1335,668,Dineo's Farm 1,KZN,23;09,Loamy
+1336,668,Dineo's Farm 2,KZN,10;19,Black Cotton Soil
+1337,669,Sipho's Farm 1,Northern Cape,45;42,Loamy
+1338,669,Sipho's Farm 2,Northern Cape,43;48,Loamy
+1339,670,Lerato's Farm 1,Western Cape,13;15,Red Loam
+1340,670,Lerato's Farm 2,Western Cape,19;89,Loamy
+1341,671,Kagiso's Farm 1,KZN,32;94,Silty Clay
+1342,671,Kagiso's Farm 2,KZN,13;47,Silty Clay
+1343,672,Sibusiso's Farm 1,KZN,46;22,Black Cotton Soil
+1344,672,Sibusiso's Farm 2,KZN,14;1,Loamy
+1345,673,Kagiso's Farm 1,Free State,32;14,Alluvial Soil
+1346,673,Kagiso's Farm 2,Free State,47;99,Red Loam
+1347,674,Lerato's Farm 1,Gauteng,43;09,Loamy
+1348,674,Lerato's Farm 2,Gauteng,10;77,Alluvial Soil
+1349,675,Kagiso's Farm 1,Limpopo,23;82,Black Cotton Soil
+1350,675,Kagiso's Farm 2,Limpopo,19;19,Alluvial Soil
+1351,676,Sipho's Farm 1,Mpumalanga,45;39,Loamy
+1352,676,Sipho's Farm 2,Mpumalanga,21;55,Silty Clay
+1353,677,Sibusiso's Farm 1,Western Cape,36;69,Clay Loam
+1354,677,Sibusiso's Farm 2,Western Cape,12;51,Clay Loam
+1355,678,Buhle's Farm 1,Limpopo,44;8,Alluvial Soil
+1356,678,Buhle's Farm 2,Limpopo,29;63,Clay Loam
+1357,679,Sipho's Farm 1,Northern Cape,35;3,Clay Loam
+1358,679,Sipho's Farm 2,Northern Cape,27;65,Silty Clay
+1359,680,Buhle's Farm 1,North West,36;02,Red Loam
+1360,680,Buhle's Farm 2,North West,13;54,Black Cotton Soil
+1361,681,Ayanda's Farm 1,Eastern Cape,26;31,Black Cotton Soil
+1362,681,Ayanda's Farm 2,Eastern Cape,13;57,Silty Clay
+1363,682,Ayanda's Farm 1,Limpopo,17;41,Clay Loam
+1364,682,Ayanda's Farm 2,Limpopo,37;95,Red Loam
+1365,683,Lerato's Farm 1,North West,11;63,Alluvial Soil
+1366,683,Lerato's Farm 2,North West,37;16,Silty Clay
+1367,684,Thabo's Farm 1,Mpumalanga,31;07,Clay Loam
+1368,684,Thabo's Farm 2,Mpumalanga,15;1,Silty Clay
+1369,685,Ayanda's Farm 1,Mpumalanga,14;04,Red Loam
+1370,685,Ayanda's Farm 2,Mpumalanga,41;75,Red Loam
+1371,686,Lerato's Farm 1,Eastern Cape,29;74,Alluvial Soil
+1372,686,Lerato's Farm 2,Eastern Cape,16;8,Black Cotton Soil
+1373,687,Nomsa's Farm 1,Limpopo,29;75,Red Loam
+1374,687,Nomsa's Farm 2,Limpopo,17;81,Black Cotton Soil
+1375,688,Nomsa's Farm 1,KZN,37;24,Black Cotton Soil
+1376,688,Nomsa's Farm 2,KZN,22;12,Black Cotton Soil
+1377,689,Lerato's Farm 1,Northern Cape,32;68,Black Cotton Soil
+1378,689,Lerato's Farm 2,Northern Cape,31;71,Clay Loam
+1379,690,Kagiso's Farm 1,Gauteng,12;82,Alluvial Soil
+1380,690,Kagiso's Farm 2,Gauteng,17;17,Silty Clay
+1381,691,Thabo's Farm 1,Limpopo,29;22,Clay Loam
+1382,691,Thabo's Farm 2,Limpopo,17;9,Alluvial Soil
+1383,692,Buhle's Farm 1,Free State,18;54,Loamy
+1384,692,Buhle's Farm 2,Free State,39;49,Silty Clay
+1385,693,Lerato's Farm 1,Gauteng,15;36,Loamy
+1386,693,Lerato's Farm 2,Gauteng,24;07,Alluvial Soil
+1387,694,Sipho's Farm 1,Eastern Cape,47;51,Silty Clay
+1388,694,Sipho's Farm 2,Eastern Cape,16;05,Black Cotton Soil
+1389,695,Kagiso's Farm 1,KZN,27;34,Silty Clay
+1390,695,Kagiso's Farm 2,KZN,43;96,Silty Clay
+1391,696,Kagiso's Farm 1,Gauteng,49;27,Loamy
+1392,696,Kagiso's Farm 2,Gauteng,13;28,Silty Clay
+1393,697,Sibusiso's Farm 1,Free State,33;22,Loamy
+1394,697,Sibusiso's Farm 2,Free State,44;26,Alluvial Soil
+1395,698,Lerato's Farm 1,KZN,40;16,Alluvial Soil
+1396,698,Lerato's Farm 2,KZN,23;73,Loamy
+1397,699,Nomsa's Farm 1,Eastern Cape,31;71,Clay Loam
+1398,699,Nomsa's Farm 2,Eastern Cape,19;83,Clay Loam
+1399,700,Dineo's Farm 1,North West,36;67,Clay Loam
+1400,700,Dineo's Farm 2,North West,27;9,Silty Clay
+1401,701,Lerato's Farm 1,Limpopo,47;94,Alluvial Soil
+1402,701,Lerato's Farm 2,Limpopo,27;26,Black Cotton Soil
+1403,702,Thabo's Farm 1,KZN,18;59,Silty Clay
+1404,702,Thabo's Farm 2,KZN,37;04,Clay Loam
+1405,703,Sibusiso's Farm 1,Eastern Cape,27;35,Alluvial Soil
+1406,703,Sibusiso's Farm 2,Eastern Cape,43;91,Black Cotton Soil
+1407,704,Sipho's Farm 1,North West,13;88,Red Loam
+1408,704,Sipho's Farm 2,North West,30;34,Silty Clay
+1409,705,Lerato's Farm 1,Western Cape,18;7,Red Loam
+1410,705,Lerato's Farm 2,Western Cape,26;23,Loamy
+1411,706,Ayanda's Farm 1,KZN,18;44,Red Loam
+1412,706,Ayanda's Farm 2,KZN,33;27,Clay Loam
+1413,707,Nomsa's Farm 1,North West,37;36,Clay Loam
+1414,707,Nomsa's Farm 2,North West,25;42,Black Cotton Soil
+1415,708,Kagiso's Farm 1,Limpopo,14;67,Alluvial Soil
+1416,708,Kagiso's Farm 2,Limpopo,45;06,Clay Loam
+1417,709,Kagiso's Farm 1,Mpumalanga,49;22,Silty Clay
+1418,709,Kagiso's Farm 2,Mpumalanga,32;04,Loamy
+1419,710,Thabo's Farm 1,Limpopo,38;06,Silty Clay
+1420,710,Thabo's Farm 2,Limpopo,20;37,Clay Loam
+1421,711,Sipho's Farm 1,Mpumalanga,25;56,Black Cotton Soil
+1422,711,Sipho's Farm 2,Mpumalanga,30;31,Red Loam
+1423,712,Thabo's Farm 1,Mpumalanga,49;94,Red Loam
+1424,712,Thabo's Farm 2,Mpumalanga,12;32,Alluvial Soil
+1425,713,Thabo's Farm 1,Limpopo,41;79,Alluvial Soil
+1426,713,Thabo's Farm 2,Limpopo,49;07,Alluvial Soil
+1427,714,Lerato's Farm 1,North West,41;1,Clay Loam
+1428,714,Lerato's Farm 2,North West,18;62,Loamy
+1429,715,Ayanda's Farm 1,Western Cape,21;1,Loamy
+1430,715,Ayanda's Farm 2,Western Cape,48;79,Loamy
+1431,716,Sipho's Farm 1,Northern Cape,49;58,Loamy
+1432,716,Sipho's Farm 2,Northern Cape,13;52,Silty Clay
+1433,717,Sibusiso's Farm 1,Free State,14;91,Black Cotton Soil
+1434,717,Sibusiso's Farm 2,Free State,36;48,Red Loam
+1435,718,Lerato's Farm 1,North West,15;16,Silty Clay
+1436,718,Lerato's Farm 2,North West,35;85,Red Loam
+1437,719,Sipho's Farm 1,Limpopo,28;56,Clay Loam
+1438,719,Sipho's Farm 2,Limpopo,40;38,Black Cotton Soil
+1439,720,Sibusiso's Farm 1,Eastern Cape,21;51,Red Loam
+1440,720,Sibusiso's Farm 2,Eastern Cape,21;57,Alluvial Soil
+1441,721,Tshepo's Farm 1,North West,15;54,Black Cotton Soil
+1442,721,Tshepo's Farm 2,North West,43;59,Clay Loam
+1443,722,Nomsa's Farm 1,Free State,49;22,Alluvial Soil
+1444,722,Nomsa's Farm 2,Free State,28;9,Red Loam
+1445,723,Thabo's Farm 1,Gauteng,18;28,Silty Clay
+1446,723,Thabo's Farm 2,Gauteng,43;79,Black Cotton Soil
+1447,724,Sipho's Farm 1,Western Cape,28;34,Clay Loam
+1448,724,Sipho's Farm 2,Western Cape,18;65,Silty Clay
+1449,725,Nomsa's Farm 1,KZN,32;55,Loamy
+1450,725,Nomsa's Farm 2,KZN,35;28,Silty Clay
+1451,726,Lerato's Farm 1,Free State,11;56,Silty Clay
+1452,726,Lerato's Farm 2,Free State,39;36,Silty Clay
+1453,727,Ayanda's Farm 1,KZN,20;08,Clay Loam
+1454,727,Ayanda's Farm 2,KZN,29;18,Black Cotton Soil
+1455,728,Lerato's Farm 1,Northern Cape,31;58,Black Cotton Soil
+1456,728,Lerato's Farm 2,Northern Cape,44;6,Silty Clay
+1457,729,Sibusiso's Farm 1,Mpumalanga,44;19,Alluvial Soil
+1458,729,Sibusiso's Farm 2,Mpumalanga,45;19,Silty Clay
+1459,730,Sibusiso's Farm 1,Northern Cape,18;08,Alluvial Soil
+1460,730,Sibusiso's Farm 2,Northern Cape,29;85,Clay Loam
+1461,731,Dineo's Farm 1,Limpopo,15,Alluvial Soil
+1462,731,Dineo's Farm 2,Limpopo,28;69,Red Loam
+1463,732,Sibusiso's Farm 1,KZN,31;67,Loamy
+1464,732,Sibusiso's Farm 2,KZN,23;22,Clay Loam
+1465,733,Buhle's Farm 1,Gauteng,49;35,Silty Clay
+1466,733,Buhle's Farm 2,Gauteng,49;81,Clay Loam
+1467,734,Nomsa's Farm 1,Mpumalanga,17;81,Alluvial Soil
+1468,734,Nomsa's Farm 2,Mpumalanga,47;76,Red Loam
+1469,735,Tshepo's Farm 1,Limpopo,41;53,Silty Clay
+1470,735,Tshepo's Farm 2,Limpopo,48;67,Red Loam
+1471,736,Sibusiso's Farm 1,North West,28;15,Alluvial Soil
+1472,736,Sibusiso's Farm 2,North West,15;68,Black Cotton Soil
+1473,737,Sibusiso's Farm 1,Free State,31;32,Silty Clay
+1474,737,Sibusiso's Farm 2,Free State,38;11,Silty Clay
+1475,738,Kagiso's Farm 1,North West,24;45,Red Loam
+1476,738,Kagiso's Farm 2,North West,15;82,Red Loam
+1477,739,Ayanda's Farm 1,Limpopo,31;38,Silty Clay
+1478,739,Ayanda's Farm 2,Limpopo,21;04,Loamy
+1479,740,Sibusiso's Farm 1,Free State,46;65,Loamy
+1480,740,Sibusiso's Farm 2,Free State,44;67,Loamy
+1481,741,Kagiso's Farm 1,KZN,44;29,Clay Loam
+1482,741,Kagiso's Farm 2,KZN,33;75,Loamy
+1483,742,Lerato's Farm 1,Free State,36;45,Black Cotton Soil
+1484,742,Lerato's Farm 2,Free State,20;2,Alluvial Soil
+1485,743,Dineo's Farm 1,Mpumalanga,11;7,Loamy
+1486,743,Dineo's Farm 2,Mpumalanga,37;15,Red Loam
+1487,744,Ayanda's Farm 1,Limpopo,46;11,Red Loam
+1488,744,Ayanda's Farm 2,Limpopo,39;44,Clay Loam
+1489,745,Sipho's Farm 1,Western Cape,43;54,Alluvial Soil
+1490,745,Sipho's Farm 2,Western Cape,17;92,Loamy
+1491,746,Sibusiso's Farm 1,Free State,25;44,Alluvial Soil
+1492,746,Sibusiso's Farm 2,Free State,44;48,Clay Loam
+1493,747,Nomsa's Farm 1,Western Cape,20;66,Clay Loam
+1494,747,Nomsa's Farm 2,Western Cape,38;89,Red Loam
+1495,748,Tshepo's Farm 1,Limpopo,34;49,Alluvial Soil
+1496,748,Tshepo's Farm 2,Limpopo,43;54,Red Loam
+1497,749,Dineo's Farm 1,North West,32;57,Red Loam
+1498,749,Dineo's Farm 2,North West,47;43,Clay Loam
+1499,750,Nomsa's Farm 1,Mpumalanga,22;06,Loamy
+1500,750,Nomsa's Farm 2,Mpumalanga,45;58,Alluvial Soil
+1501,751,Sibusiso's Farm 1,Western Cape,15;57,Red Loam
+1502,751,Sibusiso's Farm 2,Western Cape,27;18,Clay Loam
+1503,752,Sibusiso's Farm 1,Mpumalanga,12;82,Silty Clay
+1504,752,Sibusiso's Farm 2,Mpumalanga,41;67,Red Loam
+1505,753,Buhle's Farm 1,Gauteng,38;25,Loamy
+1506,753,Buhle's Farm 2,Gauteng,18;8,Alluvial Soil
+1507,754,Nomsa's Farm 1,Limpopo,42;21,Red Loam
+1508,754,Nomsa's Farm 2,Limpopo,41;09,Alluvial Soil
+1509,755,Sipho's Farm 1,Limpopo,25;77,Silty Clay
+1510,755,Sipho's Farm 2,Limpopo,44;43,Silty Clay
+1511,756,Dineo's Farm 1,North West,45;44,Black Cotton Soil
+1512,756,Dineo's Farm 2,North West,24;17,Loamy
+1513,757,Tshepo's Farm 1,KZN,21;46,Alluvial Soil
+1514,757,Tshepo's Farm 2,KZN,18;25,Loamy
+1515,758,Tshepo's Farm 1,Free State,40;72,Black Cotton Soil
+1516,758,Tshepo's Farm 2,Free State,47;15,Red Loam
+1517,759,Thabo's Farm 1,Eastern Cape,11;09,Clay Loam
+1518,759,Thabo's Farm 2,Eastern Cape,10;32,Black Cotton Soil
+1519,760,Tshepo's Farm 1,Eastern Cape,27;16,Black Cotton Soil
+1520,760,Tshepo's Farm 2,Eastern Cape,16;57,Alluvial Soil
+1521,761,Buhle's Farm 1,Eastern Cape,30;36,Alluvial Soil
+1522,761,Buhle's Farm 2,Eastern Cape,11;87,Black Cotton Soil
+1523,762,Ayanda's Farm 1,Limpopo,36;62,Alluvial Soil
+1524,762,Ayanda's Farm 2,Limpopo,49;2,Alluvial Soil
+1525,763,Kagiso's Farm 1,Western Cape,11;05,Alluvial Soil
+1526,763,Kagiso's Farm 2,Western Cape,42;12,Alluvial Soil
+1527,764,Buhle's Farm 1,KZN,16;15,Black Cotton Soil
+1528,764,Buhle's Farm 2,KZN,11;55,Black Cotton Soil
+1529,765,Thabo's Farm 1,Limpopo,25;28,Clay Loam
+1530,765,Thabo's Farm 2,Limpopo,47;98,Clay Loam
+1531,766,Thabo's Farm 1,North West,16;74,Red Loam
+1532,766,Thabo's Farm 2,North West,12;52,Clay Loam
+1533,767,Ayanda's Farm 1,Northern Cape,14;69,Silty Clay
+1534,767,Ayanda's Farm 2,Northern Cape,48;89,Black Cotton Soil
+1535,768,Sipho's Farm 1,Northern Cape,38;46,Loamy
+1536,768,Sipho's Farm 2,Northern Cape,32;78,Red Loam
+1537,769,Buhle's Farm 1,Mpumalanga,17;79,Alluvial Soil
+1538,769,Buhle's Farm 2,Mpumalanga,44;06,Alluvial Soil
+1539,770,Kagiso's Farm 1,Mpumalanga,28;21,Red Loam
+1540,770,Kagiso's Farm 2,Mpumalanga,29;66,Silty Clay
+1541,771,Sipho's Farm 1,Eastern Cape,46;55,Silty Clay
+1542,771,Sipho's Farm 2,Eastern Cape,12;93,Red Loam
+1543,772,Ayanda's Farm 1,Eastern Cape,39;42,Alluvial Soil
+1544,772,Ayanda's Farm 2,Eastern Cape,36;81,Silty Clay
+1545,773,Sipho's Farm 1,KZN,19;38,Silty Clay
+1546,773,Sipho's Farm 2,KZN,20;71,Loamy
+1547,774,Ayanda's Farm 1,Gauteng,37;05,Alluvial Soil
+1548,774,Ayanda's Farm 2,Gauteng,38;93,Red Loam
+1549,775,Sipho's Farm 1,North West,43;12,Alluvial Soil
+1550,775,Sipho's Farm 2,North West,27;97,Clay Loam
+1551,776,Sibusiso's Farm 1,KZN,44;66,Silty Clay
+1552,776,Sibusiso's Farm 2,KZN,15;33,Alluvial Soil
+1553,777,Buhle's Farm 1,Mpumalanga,24;7,Loamy
+1554,777,Buhle's Farm 2,Mpumalanga,39;9,Clay Loam
+1555,778,Thabo's Farm 1,KZN,37;1,Loamy
+1556,778,Thabo's Farm 2,KZN,17;28,Black Cotton Soil
+1557,779,Lerato's Farm 1,North West,41;23,Black Cotton Soil
+1558,779,Lerato's Farm 2,North West,20;53,Red Loam
+1559,780,Kagiso's Farm 1,Western Cape,34;77,Clay Loam
+1560,780,Kagiso's Farm 2,Western Cape,27;3,Loamy
+1561,781,Nomsa's Farm 1,Free State,39;04,Silty Clay
+1562,781,Nomsa's Farm 2,Free State,21;9,Silty Clay
+1563,782,Buhle's Farm 1,KZN,44;39,Silty Clay
+1564,782,Buhle's Farm 2,KZN,13;7,Clay Loam
+1565,783,Thabo's Farm 1,Mpumalanga,19;83,Loamy
+1566,783,Thabo's Farm 2,Mpumalanga,16;67,Black Cotton Soil
+1567,784,Dineo's Farm 1,KZN,23;54,Clay Loam
+1568,784,Dineo's Farm 2,KZN,33;25,Silty Clay
+1569,785,Lerato's Farm 1,North West,19;13,Clay Loam
+1570,785,Lerato's Farm 2,North West,28;54,Red Loam
+1571,786,Tshepo's Farm 1,Western Cape,19;55,Silty Clay
+1572,786,Tshepo's Farm 2,Western Cape,42;83,Clay Loam
+1573,787,Dineo's Farm 1,Western Cape,17;55,Red Loam
+1574,787,Dineo's Farm 2,Western Cape,25;03,Clay Loam
+1575,788,Ayanda's Farm 1,North West,38;97,Alluvial Soil
+1576,788,Ayanda's Farm 2,North West,17;9,Black Cotton Soil
+1577,789,Lerato's Farm 1,KZN,27;85,Clay Loam
+1578,789,Lerato's Farm 2,KZN,31;74,Silty Clay
+1579,790,Sipho's Farm 1,North West,16;02,Red Loam
+1580,790,Sipho's Farm 2,North West,11;55,Alluvial Soil
+1581,791,Nomsa's Farm 1,Northern Cape,47;68,Black Cotton Soil
+1582,791,Nomsa's Farm 2,Northern Cape,47;55,Black Cotton Soil
+1583,792,Sipho's Farm 1,Gauteng,45;09,Black Cotton Soil
+1584,792,Sipho's Farm 2,Gauteng,20;22,Black Cotton Soil
+1585,793,Ayanda's Farm 1,KZN,46;83,Red Loam
+1586,793,Ayanda's Farm 2,KZN,33;15,Silty Clay
+1587,794,Dineo's Farm 1,Western Cape,40;75,Red Loam
+1588,794,Dineo's Farm 2,Western Cape,45;68,Clay Loam
+1589,795,Kagiso's Farm 1,Free State,36;13,Loamy
+1590,795,Kagiso's Farm 2,Free State,16;09,Clay Loam
+1591,796,Sipho's Farm 1,Eastern Cape,11;49,Alluvial Soil
+1592,796,Sipho's Farm 2,Eastern Cape,29;33,Clay Loam
+1593,797,Dineo's Farm 1,North West,43;49,Black Cotton Soil
+1594,797,Dineo's Farm 2,North West,15;21,Loamy
+1595,798,Lerato's Farm 1,Gauteng,37;15,Clay Loam
+1596,798,Lerato's Farm 2,Gauteng,22;6,Silty Clay
+1597,799,Kagiso's Farm 1,Limpopo,15;44,Black Cotton Soil
+1598,799,Kagiso's Farm 2,Limpopo,40;36,Red Loam
+1599,800,Ayanda's Farm 1,KZN,31;86,Clay Loam
+1600,800,Ayanda's Farm 2,KZN,22;53,Black Cotton Soil
+1601,801,Dineo's Farm 1,Western Cape,26;73,Red Loam
+1602,801,Dineo's Farm 2,Western Cape,20;14,Alluvial Soil
+1603,802,Sibusiso's Farm 1,North West,23;5,Red Loam
+1604,802,Sibusiso's Farm 2,North West,43;09,Red Loam
+1605,803,Sipho's Farm 1,Northern Cape,27;05,Clay Loam
+1606,803,Sipho's Farm 2,Northern Cape,39;56,Loamy
+1607,804,Nomsa's Farm 1,Eastern Cape,35;6,Alluvial Soil
+1608,804,Nomsa's Farm 2,Eastern Cape,46;69,Loamy
+1609,805,Ayanda's Farm 1,Eastern Cape,12;27,Black Cotton Soil
+1610,805,Ayanda's Farm 2,Eastern Cape,42;22,Clay Loam
+1611,806,Kagiso's Farm 1,Gauteng,29;01,Clay Loam
+1612,806,Kagiso's Farm 2,Gauteng,45;19,Red Loam
+1613,807,Sibusiso's Farm 1,Eastern Cape,29;3,Loamy
+1614,807,Sibusiso's Farm 2,Eastern Cape,22;35,Clay Loam
+1615,808,Tshepo's Farm 1,Gauteng,48;9,Clay Loam
+1616,808,Tshepo's Farm 2,Gauteng,37;76,Silty Clay
+1617,809,Thabo's Farm 1,Mpumalanga,41;74,Black Cotton Soil
+1618,809,Thabo's Farm 2,Mpumalanga,40;7,Clay Loam
+1619,810,Dineo's Farm 1,Gauteng,36;59,Black Cotton Soil
+1620,810,Dineo's Farm 2,Gauteng,49;69,Loamy
+1621,811,Buhle's Farm 1,Northern Cape,39;74,Silty Clay
+1622,811,Buhle's Farm 2,Northern Cape,33;75,Silty Clay
+1623,812,Lerato's Farm 1,KZN,27;99,Clay Loam
+1624,812,Lerato's Farm 2,KZN,41;83,Clay Loam
+1625,813,Sibusiso's Farm 1,Gauteng,33;67,Red Loam
+1626,813,Sibusiso's Farm 2,Gauteng,35;67,Alluvial Soil
+1627,814,Thabo's Farm 1,Eastern Cape,24;9,Loamy
+1628,814,Thabo's Farm 2,Eastern Cape,14;33,Clay Loam
+1629,815,Dineo's Farm 1,Eastern Cape,47;49,Black Cotton Soil
+1630,815,Dineo's Farm 2,Eastern Cape,27;77,Clay Loam
+1631,816,Buhle's Farm 1,KZN,27;77,Black Cotton Soil
+1632,816,Buhle's Farm 2,KZN,39;69,Clay Loam
+1633,817,Tshepo's Farm 1,Western Cape,34;36,Clay Loam
+1634,817,Tshepo's Farm 2,Western Cape,20;01,Loamy
+1635,818,Sibusiso's Farm 1,Free State,13;41,Red Loam
+1636,818,Sibusiso's Farm 2,Free State,24;36,Black Cotton Soil
+1637,819,Ayanda's Farm 1,Northern Cape,34;68,Red Loam
+1638,819,Ayanda's Farm 2,Northern Cape,32;52,Loamy
+1639,820,Nomsa's Farm 1,Mpumalanga,35;66,Black Cotton Soil
+1640,820,Nomsa's Farm 2,Mpumalanga,21;29,Clay Loam
+1641,821,Ayanda's Farm 1,Northern Cape,23;88,Loamy
+1642,821,Ayanda's Farm 2,Northern Cape,36;72,Clay Loam
+1643,822,Kagiso's Farm 1,Limpopo,32;07,Red Loam
+1644,822,Kagiso's Farm 2,Limpopo,14;12,Red Loam
+1645,823,Sibusiso's Farm 1,Western Cape,28;43,Black Cotton Soil
+1646,823,Sibusiso's Farm 2,Western Cape,21;31,Loamy
+1647,824,Nomsa's Farm 1,Western Cape,14;49,Red Loam
+1648,824,Nomsa's Farm 2,Western Cape,35;61,Clay Loam
+1649,825,Thabo's Farm 1,Gauteng,36;92,Silty Clay
+1650,825,Thabo's Farm 2,Gauteng,40;68,Clay Loam
+1651,826,Sibusiso's Farm 1,Limpopo,10;84,Red Loam
+1652,826,Sibusiso's Farm 2,Limpopo,17;92,Alluvial Soil
+1653,827,Kagiso's Farm 1,Northern Cape,25;04,Loamy
+1654,827,Kagiso's Farm 2,Northern Cape,22;81,Black Cotton Soil
+1655,828,Lerato's Farm 1,Eastern Cape,27;75,Loamy
+1656,828,Lerato's Farm 2,Eastern Cape,31;66,Silty Clay
+1657,829,Dineo's Farm 1,Eastern Cape,19;57,Clay Loam
+1658,829,Dineo's Farm 2,Eastern Cape,43;91,Silty Clay
+1659,830,Sipho's Farm 1,Mpumalanga,45;99,Black Cotton Soil
+1660,830,Sipho's Farm 2,Mpumalanga,37;25,Alluvial Soil
+1661,831,Tshepo's Farm 1,KZN,16;43,Silty Clay
+1662,831,Tshepo's Farm 2,KZN,34;42,Black Cotton Soil
+1663,832,Dineo's Farm 1,Western Cape,26;59,Clay Loam
+1664,832,Dineo's Farm 2,Western Cape,25;52,Red Loam
+1665,833,Sipho's Farm 1,Mpumalanga,13;24,Silty Clay
+1666,833,Sipho's Farm 2,Mpumalanga,25;48,Clay Loam
+1667,834,Buhle's Farm 1,Northern Cape,39;48,Loamy
+1668,834,Buhle's Farm 2,Northern Cape,17;6,Black Cotton Soil
+1669,835,Tshepo's Farm 1,Western Cape,43;1,Red Loam
+1670,835,Tshepo's Farm 2,Western Cape,44;45,Silty Clay
+1671,836,Nomsa's Farm 1,Mpumalanga,27;45,Silty Clay
+1672,836,Nomsa's Farm 2,Mpumalanga,23;73,Silty Clay
+1673,837,Thabo's Farm 1,North West,11;72,Alluvial Soil
+1674,837,Thabo's Farm 2,North West,46;16,Alluvial Soil
+1675,838,Buhle's Farm 1,Western Cape,47;98,Clay Loam
+1676,838,Buhle's Farm 2,Western Cape,21;04,Clay Loam
+1677,839,Kagiso's Farm 1,Limpopo,37;18,Alluvial Soil
+1678,839,Kagiso's Farm 2,Limpopo,11,Black Cotton Soil
+1679,840,Tshepo's Farm 1,North West,14;56,Red Loam
+1680,840,Tshepo's Farm 2,North West,29;19,Loamy
+1681,841,Tshepo's Farm 1,Western Cape,40;13,Black Cotton Soil
+1682,841,Tshepo's Farm 2,Western Cape,32;81,Loamy
+1683,842,Dineo's Farm 1,Western Cape,36;45,Clay Loam
+1684,842,Dineo's Farm 2,Western Cape,37;86,Loamy
+1685,843,Thabo's Farm 1,Western Cape,11;72,Clay Loam
+1686,843,Thabo's Farm 2,Western Cape,33;65,Loamy
+1687,844,Sibusiso's Farm 1,Gauteng,35;75,Clay Loam
+1688,844,Sibusiso's Farm 2,Gauteng,26;64,Red Loam
+1689,845,Buhle's Farm 1,Eastern Cape,14;81,Clay Loam
+1690,845,Buhle's Farm 2,Eastern Cape,28;3,Black Cotton Soil
+1691,846,Buhle's Farm 1,Mpumalanga,22;47,Black Cotton Soil
+1692,846,Buhle's Farm 2,Mpumalanga,44;8,Alluvial Soil
+1693,847,Sibusiso's Farm 1,Western Cape,14;45,Clay Loam
+1694,847,Sibusiso's Farm 2,Western Cape,34;05,Red Loam
+1695,848,Lerato's Farm 1,North West,12;85,Black Cotton Soil
+1696,848,Lerato's Farm 2,North West,30;33,Loamy
+1697,849,Sibusiso's Farm 1,Northern Cape,21;75,Red Loam
+1698,849,Sibusiso's Farm 2,Northern Cape,36;28,Alluvial Soil
+1699,850,Dineo's Farm 1,Eastern Cape,45;26,Clay Loam
+1700,850,Dineo's Farm 2,Eastern Cape,40;04,Red Loam
+1701,851,Nomsa's Farm 1,Northern Cape,16;11,Red Loam
+1702,851,Nomsa's Farm 2,Northern Cape,43;44,Red Loam
+1703,852,Sibusiso's Farm 1,Free State,35;21,Loamy
+1704,852,Sibusiso's Farm 2,Free State,30;98,Silty Clay
+1705,853,Ayanda's Farm 1,Free State,29;95,Clay Loam
+1706,853,Ayanda's Farm 2,Free State,27;49,Alluvial Soil
+1707,854,Ayanda's Farm 1,Gauteng,19;59,Alluvial Soil
+1708,854,Ayanda's Farm 2,Gauteng,43;94,Clay Loam
+1709,855,Buhle's Farm 1,Northern Cape,35;22,Red Loam
+1710,855,Buhle's Farm 2,Northern Cape,47;81,Silty Clay
+1711,856,Kagiso's Farm 1,KZN,36;38,Alluvial Soil
+1712,856,Kagiso's Farm 2,KZN,12;86,Silty Clay
+1713,857,Thabo's Farm 1,Free State,38;69,Silty Clay
+1714,857,Thabo's Farm 2,Free State,43;29,Alluvial Soil
+1715,858,Buhle's Farm 1,Free State,34;56,Silty Clay
+1716,858,Buhle's Farm 2,Free State,43;11,Alluvial Soil
+1717,859,Dineo's Farm 1,Limpopo,27;88,Red Loam
+1718,859,Dineo's Farm 2,Limpopo,26;5,Black Cotton Soil
+1719,860,Sipho's Farm 1,Eastern Cape,36;92,Loamy
+1720,860,Sipho's Farm 2,Eastern Cape,19;17,Alluvial Soil
+1721,861,Tshepo's Farm 1,Mpumalanga,37;78,Clay Loam
+1722,861,Tshepo's Farm 2,Mpumalanga,22;94,Red Loam
+1723,862,Kagiso's Farm 1,Free State,17;81,Black Cotton Soil
+1724,862,Kagiso's Farm 2,Free State,45;62,Silty Clay
+1725,863,Lerato's Farm 1,Free State,44;1,Silty Clay
+1726,863,Lerato's Farm 2,Free State,22;21,Clay Loam
+1727,864,Sibusiso's Farm 1,KZN,23;67,Clay Loam
+1728,864,Sibusiso's Farm 2,KZN,14;91,Clay Loam
+1729,865,Dineo's Farm 1,Northern Cape,37;58,Silty Clay
+1730,865,Dineo's Farm 2,Northern Cape,10;27,Clay Loam
+1731,866,Lerato's Farm 1,North West,22;7,Black Cotton Soil
+1732,866,Lerato's Farm 2,North West,41;78,Loamy
+1733,867,Buhle's Farm 1,Western Cape,29;53,Black Cotton Soil
+1734,867,Buhle's Farm 2,Western Cape,28;75,Black Cotton Soil
+1735,868,Tshepo's Farm 1,Mpumalanga,30;07,Clay Loam
+1736,868,Tshepo's Farm 2,Mpumalanga,32;86,Silty Clay
+1737,869,Ayanda's Farm 1,Western Cape,29;25,Alluvial Soil
+1738,869,Ayanda's Farm 2,Western Cape,39;92,Silty Clay
+1739,870,Nomsa's Farm 1,Eastern Cape,32;03,Clay Loam
+1740,870,Nomsa's Farm 2,Eastern Cape,18;61,Loamy
+1741,871,Tshepo's Farm 1,Eastern Cape,32;82,Silty Clay
+1742,871,Tshepo's Farm 2,Eastern Cape,13;6,Clay Loam
+1743,872,Sipho's Farm 1,KZN,17,Black Cotton Soil
+1744,872,Sipho's Farm 2,KZN,29;68,Loamy
+1745,873,Kagiso's Farm 1,KZN,32;09,Loamy
+1746,873,Kagiso's Farm 2,KZN,44;45,Clay Loam
+1747,874,Buhle's Farm 1,Gauteng,15;58,Loamy
+1748,874,Buhle's Farm 2,Gauteng,35;75,Loamy
+1749,875,Sibusiso's Farm 1,Northern Cape,25;92,Clay Loam
+1750,875,Sibusiso's Farm 2,Northern Cape,20;69,Black Cotton Soil
+1751,876,Nomsa's Farm 1,Mpumalanga,14;94,Clay Loam
+1752,876,Nomsa's Farm 2,Mpumalanga,45;12,Black Cotton Soil
+1753,877,Dineo's Farm 1,Free State,43;65,Red Loam
+1754,877,Dineo's Farm 2,Free State,37;58,Silty Clay
+1755,878,Ayanda's Farm 1,North West,32;42,Black Cotton Soil
+1756,878,Ayanda's Farm 2,North West,39;11,Silty Clay
+1757,879,Nomsa's Farm 1,Northern Cape,18;41,Alluvial Soil
+1758,879,Nomsa's Farm 2,Northern Cape,33;95,Alluvial Soil
+1759,880,Sibusiso's Farm 1,Eastern Cape,29;67,Black Cotton Soil
+1760,880,Sibusiso's Farm 2,Eastern Cape,43;75,Red Loam
+1761,881,Nomsa's Farm 1,KZN,14;48,Clay Loam
+1762,881,Nomsa's Farm 2,KZN,10;49,Silty Clay
+1763,882,Kagiso's Farm 1,Western Cape,27;45,Clay Loam
+1764,882,Kagiso's Farm 2,Western Cape,23;8,Silty Clay
+1765,883,Tshepo's Farm 1,KZN,23;6,Black Cotton Soil
+1766,883,Tshepo's Farm 2,KZN,12;76,Clay Loam
+1767,884,Sibusiso's Farm 1,Northern Cape,11;96,Black Cotton Soil
+1768,884,Sibusiso's Farm 2,Northern Cape,10;05,Clay Loam
+1769,885,Thabo's Farm 1,Eastern Cape,32;99,Black Cotton Soil
+1770,885,Thabo's Farm 2,Eastern Cape,24;41,Silty Clay
+1771,886,Ayanda's Farm 1,Limpopo,48;7,Loamy
+1772,886,Ayanda's Farm 2,Limpopo,33;11,Alluvial Soil
+1773,887,Kagiso's Farm 1,Free State,26;25,Silty Clay
+1774,887,Kagiso's Farm 2,Free State,11;48,Clay Loam
+1775,888,Tshepo's Farm 1,KZN,28;45,Red Loam
+1776,888,Tshepo's Farm 2,KZN,34;84,Red Loam
+1777,889,Buhle's Farm 1,Free State,28;45,Silty Clay
+1778,889,Buhle's Farm 2,Free State,29;18,Red Loam
+1779,890,Thabo's Farm 1,Western Cape,22;54,Black Cotton Soil
+1780,890,Thabo's Farm 2,Western Cape,14;74,Black Cotton Soil
+1781,891,Nomsa's Farm 1,Free State,29;04,Clay Loam
+1782,891,Nomsa's Farm 2,Free State,10;71,Alluvial Soil
+1783,892,Nomsa's Farm 1,Western Cape,33;47,Silty Clay
+1784,892,Nomsa's Farm 2,Western Cape,22;97,Black Cotton Soil
+1785,893,Sibusiso's Farm 1,Eastern Cape,45;23,Silty Clay
+1786,893,Sibusiso's Farm 2,Eastern Cape,21;6,Alluvial Soil
+1787,894,Ayanda's Farm 1,Western Cape,19;32,Silty Clay
+1788,894,Ayanda's Farm 2,Western Cape,44;54,Alluvial Soil
+1789,895,Buhle's Farm 1,Free State,40;11,Loamy
+1790,895,Buhle's Farm 2,Free State,48;45,Alluvial Soil
+1791,896,Sibusiso's Farm 1,Eastern Cape,21;48,Loamy
+1792,896,Sibusiso's Farm 2,Eastern Cape,48;4,Black Cotton Soil
+1793,897,Thabo's Farm 1,Gauteng,10;58,Clay Loam
+1794,897,Thabo's Farm 2,Gauteng,41;39,Black Cotton Soil
+1795,898,Tshepo's Farm 1,Gauteng,15;77,Clay Loam
+1796,898,Tshepo's Farm 2,Gauteng,47;25,Loamy
+1797,899,Tshepo's Farm 1,Mpumalanga,26;66,Alluvial Soil
+1798,899,Tshepo's Farm 2,Mpumalanga,45;12,Red Loam
+1799,900,Kagiso's Farm 1,North West,14;65,Black Cotton Soil
+1800,900,Kagiso's Farm 2,North West,22;38,Alluvial Soil
+1801,901,Sipho's Farm 1,Free State,16;55,Silty Clay
+1802,901,Sipho's Farm 2,Free State,25;08,Loamy
+1803,902,Tshepo's Farm 1,KZN,29;57,Black Cotton Soil
+1804,902,Tshepo's Farm 2,KZN,32;87,Alluvial Soil
+1805,903,Sibusiso's Farm 1,Northern Cape,32;9,Black Cotton Soil
+1806,903,Sibusiso's Farm 2,Northern Cape,11;62,Clay Loam
+1807,904,Tshepo's Farm 1,Northern Cape,31;96,Clay Loam
+1808,904,Tshepo's Farm 2,Northern Cape,19;21,Silty Clay
+1809,905,Sipho's Farm 1,Mpumalanga,22;33,Silty Clay
+1810,905,Sipho's Farm 2,Mpumalanga,46;43,Clay Loam
+1811,906,Nomsa's Farm 1,Mpumalanga,37;87,Red Loam
+1812,906,Nomsa's Farm 2,Mpumalanga,27;69,Red Loam
+1813,907,Thabo's Farm 1,Western Cape,26;92,Clay Loam
+1814,907,Thabo's Farm 2,Western Cape,31;61,Silty Clay
+1815,908,Tshepo's Farm 1,Free State,34;46,Loamy
+1816,908,Tshepo's Farm 2,Free State,44;46,Loamy
+1817,909,Ayanda's Farm 1,Northern Cape,42;25,Loamy
+1818,909,Ayanda's Farm 2,Northern Cape,41;38,Alluvial Soil
+1819,910,Tshepo's Farm 1,Limpopo,38;42,Alluvial Soil
+1820,910,Tshepo's Farm 2,Limpopo,12;87,Silty Clay
+1821,911,Dineo's Farm 1,KZN,37;7,Red Loam
+1822,911,Dineo's Farm 2,KZN,11;61,Black Cotton Soil
+1823,912,Buhle's Farm 1,Northern Cape,16;71,Red Loam
+1824,912,Buhle's Farm 2,Northern Cape,30;62,Clay Loam
+1825,913,Lerato's Farm 1,Eastern Cape,34;51,Silty Clay
+1826,913,Lerato's Farm 2,Eastern Cape,25;65,Black Cotton Soil
+1827,914,Thabo's Farm 1,KZN,39;67,Alluvial Soil
+1828,914,Thabo's Farm 2,KZN,19;11,Silty Clay
+1829,915,Dineo's Farm 1,Eastern Cape,10;33,Red Loam
+1830,915,Dineo's Farm 2,Eastern Cape,37;37,Clay Loam
+1831,916,Ayanda's Farm 1,Western Cape,14;96,Clay Loam
+1832,916,Ayanda's Farm 2,Western Cape,24;4,Silty Clay
+1833,917,Thabo's Farm 1,Mpumalanga,35;61,Alluvial Soil
+1834,917,Thabo's Farm 2,Mpumalanga,25;65,Black Cotton Soil
+1835,918,Lerato's Farm 1,Eastern Cape,25;43,Silty Clay
+1836,918,Lerato's Farm 2,Eastern Cape,37;13,Silty Clay
+1837,919,Nomsa's Farm 1,Limpopo,25;4,Black Cotton Soil
+1838,919,Nomsa's Farm 2,Limpopo,35;21,Alluvial Soil
+1839,920,Kagiso's Farm 1,Northern Cape,36;85,Red Loam
+1840,920,Kagiso's Farm 2,Northern Cape,30;19,Red Loam
+1841,921,Ayanda's Farm 1,Free State,38;4,Clay Loam
+1842,921,Ayanda's Farm 2,Free State,41;09,Loamy
+1843,922,Nomsa's Farm 1,Northern Cape,40;92,Clay Loam
+1844,922,Nomsa's Farm 2,Northern Cape,24;33,Red Loam
+1845,923,Lerato's Farm 1,Gauteng,42;35,Clay Loam
+1846,923,Lerato's Farm 2,Gauteng,43;12,Loamy
+1847,924,Nomsa's Farm 1,Free State,16;76,Red Loam
+1848,924,Nomsa's Farm 2,Free State,19;05,Black Cotton Soil
+1849,925,Thabo's Farm 1,Free State,28;14,Black Cotton Soil
+1850,925,Thabo's Farm 2,Free State,10;09,Clay Loam
+1851,926,Buhle's Farm 1,North West,23;7,Loamy
+1852,926,Buhle's Farm 2,North West,44;41,Clay Loam
+1853,927,Nomsa's Farm 1,Mpumalanga,42;45,Alluvial Soil
+1854,927,Nomsa's Farm 2,Mpumalanga,20;97,Clay Loam
+1855,928,Buhle's Farm 1,Free State,24;27,Silty Clay
+1856,928,Buhle's Farm 2,Free State,41;24,Clay Loam
+1857,929,Lerato's Farm 1,Free State,17;98,Alluvial Soil
+1858,929,Lerato's Farm 2,Free State,32;15,Red Loam
+1859,930,Tshepo's Farm 1,Gauteng,26;18,Clay Loam
+1860,930,Tshepo's Farm 2,Gauteng,35;41,Silty Clay
+1861,931,Nomsa's Farm 1,Northern Cape,33;28,Black Cotton Soil
+1862,931,Nomsa's Farm 2,Northern Cape,38;14,Loamy
+1863,932,Sipho's Farm 1,KZN,32;63,Red Loam
+1864,932,Sipho's Farm 2,KZN,21;45,Black Cotton Soil
+1865,933,Dineo's Farm 1,KZN,23;37,Loamy
+1866,933,Dineo's Farm 2,KZN,27;2,Loamy
+1867,934,Sibusiso's Farm 1,Western Cape,41;9,Clay Loam
+1868,934,Sibusiso's Farm 2,Western Cape,23;86,Red Loam
+1869,935,Thabo's Farm 1,Limpopo,27;36,Black Cotton Soil
+1870,935,Thabo's Farm 2,Limpopo,22;44,Alluvial Soil
+1871,936,Dineo's Farm 1,Gauteng,47;12,Clay Loam
+1872,936,Dineo's Farm 2,Gauteng,28;5,Silty Clay
+1873,937,Sibusiso's Farm 1,Free State,32;04,Black Cotton Soil
+1874,937,Sibusiso's Farm 2,Free State,42;26,Clay Loam
+1875,938,Nomsa's Farm 1,Eastern Cape,20;17,Silty Clay
+1876,938,Nomsa's Farm 2,Eastern Cape,14;24,Clay Loam
+1877,939,Buhle's Farm 1,Free State,49;87,Black Cotton Soil
+1878,939,Buhle's Farm 2,Free State,35;82,Red Loam
+1879,940,Tshepo's Farm 1,KZN,21;98,Red Loam
+1880,940,Tshepo's Farm 2,KZN,36;13,Loamy
+1881,941,Dineo's Farm 1,Gauteng,35;99,Red Loam
+1882,941,Dineo's Farm 2,Gauteng,43;89,Clay Loam
+1883,942,Buhle's Farm 1,Northern Cape,46;57,Red Loam
+1884,942,Buhle's Farm 2,Northern Cape,26;44,Alluvial Soil
+1885,943,Kagiso's Farm 1,North West,35;94,Alluvial Soil
+1886,943,Kagiso's Farm 2,North West,25;84,Alluvial Soil
+1887,944,Buhle's Farm 1,Limpopo,47;06,Red Loam
+1888,944,Buhle's Farm 2,Limpopo,30;4,Silty Clay
+1889,945,Kagiso's Farm 1,Eastern Cape,14;37,Clay Loam
+1890,945,Kagiso's Farm 2,Eastern Cape,30;1,Alluvial Soil
+1891,946,Buhle's Farm 1,North West,44;62,Loamy
+1892,946,Buhle's Farm 2,North West,22;92,Alluvial Soil
+1893,947,Sipho's Farm 1,Gauteng,10;54,Clay Loam
+1894,947,Sipho's Farm 2,Gauteng,11;69,Clay Loam
+1895,948,Sipho's Farm 1,KZN,35;28,Black Cotton Soil
+1896,948,Sipho's Farm 2,KZN,26;29,Black Cotton Soil
+1897,949,Tshepo's Farm 1,North West,46;2,Clay Loam
+1898,949,Tshepo's Farm 2,North West,17;49,Clay Loam
+1899,950,Sipho's Farm 1,Mpumalanga,23;19,Clay Loam
+1900,950,Sipho's Farm 2,Mpumalanga,32;02,Red Loam
+1901,951,Tshepo's Farm 1,Gauteng,18;35,Alluvial Soil
+1902,951,Tshepo's Farm 2,Gauteng,31;02,Silty Clay
+1903,952,Sipho's Farm 1,Western Cape,10;02,Clay Loam
+1904,952,Sipho's Farm 2,Western Cape,21;56,Clay Loam
+1905,953,Thabo's Farm 1,North West,12;18,Clay Loam
+1906,953,Thabo's Farm 2,North West,36;45,Loamy
+1907,954,Tshepo's Farm 1,KZN,22;16,Red Loam
+1908,954,Tshepo's Farm 2,KZN,20;94,Black Cotton Soil
+1909,955,Sipho's Farm 1,North West,24;97,Alluvial Soil
+1910,955,Sipho's Farm 2,North West,18;94,Red Loam
+1911,956,Kagiso's Farm 1,Western Cape,37;99,Clay Loam
+1912,956,Kagiso's Farm 2,Western Cape,21;6,Loamy
+1913,957,Sibusiso's Farm 1,Free State,27;59,Red Loam
+1914,957,Sibusiso's Farm 2,Free State,47;65,Red Loam
+1915,958,Kagiso's Farm 1,KZN,34;44,Clay Loam
+1916,958,Kagiso's Farm 2,KZN,13,Alluvial Soil
+1917,959,Kagiso's Farm 1,Eastern Cape,37;55,Red Loam
+1918,959,Kagiso's Farm 2,Eastern Cape,39;5,Alluvial Soil
+1919,960,Sibusiso's Farm 1,Free State,33;48,Alluvial Soil
+1920,960,Sibusiso's Farm 2,Free State,47;48,Red Loam
+1921,961,Sibusiso's Farm 1,Free State,47;01,Alluvial Soil
+1922,961,Sibusiso's Farm 2,Free State,17;16,Silty Clay
+1923,962,Tshepo's Farm 1,Limpopo,46;58,Silty Clay
+1924,962,Tshepo's Farm 2,Limpopo,22;93,Clay Loam
+1925,963,Kagiso's Farm 1,Free State,45;94,Black Cotton Soil
+1926,963,Kagiso's Farm 2,Free State,44;26,Silty Clay
+1927,964,Thabo's Farm 1,Western Cape,10;07,Alluvial Soil
+1928,964,Thabo's Farm 2,Western Cape,14;38,Loamy
+1929,965,Sipho's Farm 1,Gauteng,33;78,Silty Clay
+1930,965,Sipho's Farm 2,Gauteng,48;69,Clay Loam
+1931,966,Nomsa's Farm 1,Northern Cape,22;75,Black Cotton Soil
+1932,966,Nomsa's Farm 2,Northern Cape,33;51,Red Loam
+1933,967,Thabo's Farm 1,Free State,16;62,Red Loam
+1934,967,Thabo's Farm 2,Free State,24;87,Black Cotton Soil
+1935,968,Nomsa's Farm 1,Gauteng,48;79,Clay Loam
+1936,968,Nomsa's Farm 2,Gauteng,48;02,Silty Clay
+1937,969,Thabo's Farm 1,Gauteng,48;9,Silty Clay
+1938,969,Thabo's Farm 2,Gauteng,40;98,Alluvial Soil
+1939,970,Buhle's Farm 1,Eastern Cape,49;95,Alluvial Soil
+1940,970,Buhle's Farm 2,Eastern Cape,16;33,Loamy
+1941,971,Ayanda's Farm 1,Western Cape,27;82,Red Loam
+1942,971,Ayanda's Farm 2,Western Cape,44;25,Alluvial Soil
+1943,972,Sipho's Farm 1,Northern Cape,26;9,Black Cotton Soil
+1944,972,Sipho's Farm 2,Northern Cape,45;28,Alluvial Soil
+1945,973,Sibusiso's Farm 1,Western Cape,33;36,Red Loam
+1946,973,Sibusiso's Farm 2,Western Cape,25;45,Loamy
+1947,974,Dineo's Farm 1,Northern Cape,47;94,Red Loam
+1948,974,Dineo's Farm 2,Northern Cape,27;4,Silty Clay
+1949,975,Nomsa's Farm 1,Northern Cape,20;24,Silty Clay
+1950,975,Nomsa's Farm 2,Northern Cape,19;03,Loamy
+1951,976,Nomsa's Farm 1,Limpopo,49,Red Loam
+1952,976,Nomsa's Farm 2,Limpopo,19;13,Black Cotton Soil
+1953,977,Nomsa's Farm 1,Eastern Cape,37;97,Silty Clay
+1954,977,Nomsa's Farm 2,Eastern Cape,27;91,Black Cotton Soil
+1955,978,Ayanda's Farm 1,Western Cape,13;05,Clay Loam
+1956,978,Ayanda's Farm 2,Western Cape,11;29,Red Loam
+1957,979,Buhle's Farm 1,Western Cape,21;78,Alluvial Soil
+1958,979,Buhle's Farm 2,Western Cape,41;45,Black Cotton Soil
+1959,980,Lerato's Farm 1,Northern Cape,37;13,Black Cotton Soil
+1960,980,Lerato's Farm 2,Northern Cape,24;12,Black Cotton Soil
+1961,981,Nomsa's Farm 1,Western Cape,45;81,Black Cotton Soil
+1962,981,Nomsa's Farm 2,Western Cape,11;06,Clay Loam
+1963,982,Sibusiso's Farm 1,North West,46;25,Red Loam
+1964,982,Sibusiso's Farm 2,North West,30;4,Clay Loam
+1965,983,Buhle's Farm 1,KZN,11;4,Silty Clay
+1966,983,Buhle's Farm 2,KZN,34;01,Black Cotton Soil
+1967,984,Sipho's Farm 1,KZN,36;91,Loamy
+1968,984,Sipho's Farm 2,KZN,14;72,Red Loam
+1969,985,Sipho's Farm 1,Limpopo,30;6,Clay Loam
+1970,985,Sipho's Farm 2,Limpopo,20;48,Loamy
+1971,986,Buhle's Farm 1,Gauteng,18;28,Silty Clay
+1972,986,Buhle's Farm 2,Gauteng,40;47,Clay Loam
+1973,987,Lerato's Farm 1,North West,36;97,Red Loam
+1974,987,Lerato's Farm 2,North West,43;58,Loamy
+1975,988,Buhle's Farm 1,Mpumalanga,46;76,Alluvial Soil
+1976,988,Buhle's Farm 2,Mpumalanga,38;5,Black Cotton Soil
+1977,989,Dineo's Farm 1,Eastern Cape,12;02,Red Loam
+1978,989,Dineo's Farm 2,Eastern Cape,19;67,Silty Clay
+1979,990,Sibusiso's Farm 1,North West,37;44,Alluvial Soil
+1980,990,Sibusiso's Farm 2,North West,37;98,Alluvial Soil
+1981,991,Ayanda's Farm 1,North West,45;52,Clay Loam
+1982,991,Ayanda's Farm 2,North West,29;87,Red Loam
+1983,992,Buhle's Farm 1,Free State,36;12,Silty Clay
+1984,992,Buhle's Farm 2,Free State,10;93,Clay Loam
+1985,993,Kagiso's Farm 1,Mpumalanga,40;25,Loamy
+1986,993,Kagiso's Farm 2,Mpumalanga,12;42,Silty Clay
+1987,994,Tshepo's Farm 1,Gauteng,24;58,Clay Loam
+1988,994,Tshepo's Farm 2,Gauteng,22;15,Black Cotton Soil
+1989,995,Sipho's Farm 1,KZN,40;88,Red Loam
+1990,995,Sipho's Farm 2,KZN,33;56,Clay Loam
+1991,996,Nomsa's Farm 1,Free State,49;07,Silty Clay
+1992,996,Nomsa's Farm 2,Free State,23;93,Clay Loam
+1993,997,Lerato's Farm 1,Free State,36;84,Alluvial Soil
+1994,997,Lerato's Farm 2,Free State,31;78,Alluvial Soil
+1995,998,Tshepo's Farm 1,Northern Cape,41;18,Red Loam
+1996,998,Tshepo's Farm 2,Northern Cape,11;88,Black Cotton Soil
+1997,999,Buhle's Farm 1,Northern Cape,32;03,Silty Clay
+1998,999,Buhle's Farm 2,Northern Cape,15;45,Loamy
+1999,1000,Thabo's Farm 1,Northern Cape,44;14,Loamy
+2000,1000,Thabo's Farm 2,Northern Cape,37;11,Clay Loam
